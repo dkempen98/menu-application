@@ -1,0 +1,35 @@
+[
+  {
+    "drinkName": "Tequila Sunrise",
+    "category": "Tequila",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": true
+  },
+  {
+    "drinkName": "Scotch on the Rocks",
+    "category": "Scotch Whiskey",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": true
+  },
+  {
+    "drinkName": "Vodka Sunset",
+    "category": "Vodka",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  }
+]
