@@ -3,9 +3,9 @@ import React from "react";
 export default function LandingPage() {
     return(
         <section>
-            <div>
+            <h1>
                 Landing Page
-            </div>
+            </h1>
             <a href="/drinks">
                 Drinks
             </a>

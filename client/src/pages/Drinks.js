@@ -27,9 +27,9 @@ export default function Drinks() {
 
     return(
         <section>
-            <div>
+            <h1>
                 Drink Types
-            </div>
+            </h1>
             <ul>
                 <li><a href="/">Home</a></li>
 

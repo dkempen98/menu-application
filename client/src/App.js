@@ -4,6 +4,7 @@ import Drink from './pages/Drink';
 import DrinkCategory from './pages/DrinkCategory';
 import Drinks from './pages/Drinks';
 import LandingPage from './pages/LandingPage';
+import Error from './pages/ErrorPage';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
               <Route 
                 path="/drinks/:category/:drink"
                 element={<Drink />}
+              />
+              <Route
+                path="/error"
+                element={<Error />}
               />
             </Routes>
           </div>
