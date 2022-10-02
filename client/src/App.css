@@ -104,7 +104,7 @@ body {
 
   list-style: none;
   width: 100% - 4px;
-  height: 5rem;
+  height: 6rem;
 
   display: flex;
   align-items: center;
@@ -114,7 +114,7 @@ body {
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -128,6 +128,10 @@ body {
   text-align: center;
 }
 
+.all {
+  background-position: center center;
+}
+
 .vodka {
   background-image: url('./images/vodka.jpg');
 }
@@ -138,4 +142,5 @@ body {
 
 .scotch-whiskey {
   background-image: url('./images/scotch-whiskey.jpg');
+  background-position: center center;
 }
