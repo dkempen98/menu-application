@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import BackButton from "../components/BackButton";
 import drinkList from "../data/RecipeSample.json"
 
 export default function Drink() {
@@ -33,7 +34,6 @@ export default function Drink() {
     }
 
     function hideImg() {
-        // document.getElementById("drinkImg").style.visibility = "hidden"
         setImageLink("/images/generic-drink.jpg")
     }
 
@@ -50,6 +50,7 @@ export default function Drink() {
             <p>
                 {description}
             </p>
+            <BackButton/>
         </section>
     )
 }

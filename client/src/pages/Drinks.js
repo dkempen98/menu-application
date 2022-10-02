@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListItems from "../components/ListItems";
 import drinkList from "../data/RecipeSample.json"
+import BackButton from "../components/BackButton";
 
 export default function Drinks() {
     const [categories, setCategories] = useState()
@@ -23,21 +24,20 @@ export default function Drinks() {
         // TODO: use unshift on this array to add a seasonal item if one exists
         cats.unshift("All")
         setCategories(cats)
+        console.log(window.history)
     }
 
     return(
         <section>
-            <h1>
+            <h1 className="page-header">
                 Drink Types
             </h1>
-            <ul>
-                <li><a href="/">Home</a></li>
-
-                <ListItems
-                    items = {categories}
-                    currentPageRoute = {window.location.pathname}
+            <ListItems
+                items = {categories}
+                currentPageRoute = {window.location.pathname}
+                pageClass = "drinks"
                 />
-            </ul>
+            <BackButton/>
         </section>
     )
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import BackButton from "../components/BackButton";
 import ListItems from "../components/ListItems";
 import drinkList from "../data/RecipeSample.json"
 
@@ -67,6 +68,7 @@ export default function DrinkCategory() {
                     currentPageRoute = {window.location.pathname}
                 />
             </ul>
+            <BackButton/>
         </section>
     )
 }

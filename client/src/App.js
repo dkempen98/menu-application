@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
-import './App.css';
 import Drink from './pages/Drink';
 import DrinkCategory from './pages/DrinkCategory';
 import Drinks from './pages/Drinks';
 import LandingPage from './pages/LandingPage';
 import Error from './pages/ErrorPage';
+
+import './App.css';
+import 'normalize.css';
 
 function App() {
   return (
