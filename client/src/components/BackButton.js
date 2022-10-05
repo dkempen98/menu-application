@@ -17,6 +17,6 @@ export default function BackButton() {
     }
 
     return (
-        <button onClick={() => previousPage()} className="back-button">&#8617;</button>
+        <button onClick={() => previousPage()} className="back-button button-flip">&#8617;</button>
     )
 }

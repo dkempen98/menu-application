@@ -57,17 +57,14 @@ export default function DrinkCategory() {
 
     return(
         <section>
-            <h1>
+            <h1 className="page-header">
                 {category}
             </h1>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/drinks">Drinks</a></li>
-                <ListItems
-                    items = {drinks}
-                    currentPageRoute = {window.location.pathname}
-                />
-            </ul>
+            <ListItems
+                items = {drinks}
+                currentPageRoute = {window.location.pathname}
+                pageClass = "category"
+            />
             <BackButton/>
         </section>
     )

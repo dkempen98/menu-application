@@ -5,6 +5,7 @@ import BackButton from "../components/BackButton";
 
 export default function Drinks() {
     const [categories, setCategories] = useState()
+    const [holiday, setHoliday] = useState('Halloween')
 
     useEffect(() => {
         init()
@@ -23,6 +24,7 @@ export default function Drinks() {
         cats.sort()
         // TODO: use unshift on this array to add a seasonal item if one exists
         cats.unshift("All")
+        if(holiday != '') {cats.unshift(holiday)};
         setCategories(cats)
         console.log(window.history)
     }

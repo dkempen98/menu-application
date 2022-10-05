@@ -10,11 +10,28 @@ export default function ListItems({items, currentPageRoute, pageClass}) {
         return name.toLowerCase().split(' ').join('-')
     }
     
+
     const list = items.map((item) => {
         const slug = generateSlug(item)
+        let imageLink = "/images/" + slug + ".jpg"
+        
+        function replaceImg(name) {
+            document.getElementById("drinkImg" + name).src = "/images/generic-drink.jpg"
+        }
+        
+        if(pageClass === "category") {
+            return (
+                <a href={currentPageRoute + "/" + slug} className="category-drink-container">
+                    <img id={"drinkImg" + slug} className="category-images" src={imageLink} onError={() => replaceImg(slug)}/>
+                    <div key={slug} className={pageClass + "-items " + slug}>
+                        <div>{item}</div>
+                    </div>
+                </a>
+            )
+        }
         return (
             <a href={currentPageRoute + "/" + slug}>
-                <div key={slug} className={pageClass + "-items " + slug}>
+                <div key={slug} className={pageClass + "-items card-hover " + slug}>
                     <div>{item}</div>
                 </div>
             </a>

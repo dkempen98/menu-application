@@ -1,8 +1,10 @@
 :root {
-  --bg: black;
+  --bg: rgb(95, 95, 95);
   --primary-color: rgb(74, 5, 95);
   --secondary-color: #ff7300;
   --shadow: 2px 2px 8px black;
+  --header-font: 'Creepster', cursive;
+  --body-font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -11,6 +13,7 @@
 
 body {
   background-color: var(--bg);
+  font-family: var(--body-font);
 }
 
 /* Reused elements */
@@ -18,12 +21,14 @@ body {
 .page-header {
   color: var(--secondary-color);
   text-align: center;
+  font-family: 'Creepster', cursive;
+  font-weight: 400;
 }
 
 .back-button {
   position: fixed;
   bottom: 5%;
-  right: 5%;
+  left: 5%;
   float: inherit;
 
   height: 50px;
@@ -37,6 +42,23 @@ body {
   box-shadow: var(--shadow);
 }
 
+.back-button:hover {
+  cursor: pointer;
+}
+
+.button-flip:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.card-hover {
+  transition: 250ms;
+}
+
+.card-hover:hover {
+  height: 8rem;
+}
 
 /* Landing page styling */
 
@@ -73,15 +95,12 @@ body {
   text-decoration: none;
   border: 2px solid var(--secondary-color);
   border-radius: 8px;
-  
+  font-weight: bolder;
+
   
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.landing-button h3 {
-  color: var(--secondary-color);
 }
 
 /* Drinks Page styling */
@@ -111,7 +130,7 @@ body {
   justify-content: center;
 
   background-image: url('./images/landing-background.jpg');
-  background-color: rgb(139, 139, 139);
+  background-color: #97979794;
   background-blend-mode: multiply;
   background-size: cover;
   background-position: top center;
@@ -143,4 +162,41 @@ body {
 .scotch-whiskey {
   background-image: url('./images/scotch-whiskey.jpg');
   background-position: center center;
+}
+
+.halloween {
+  background-image: url('./images/halloween.jpg');
+  background-position: center center;
+}
+
+/* Drink :category: page */
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category-drink-container {
+  width: 40%;
+  height: 10rem;
+  margin-bottom: 3rem;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 125px;
+}
+
+.category-items {
+  position: absolute;
+  
+}
+
+.category-images {
+  object-fit: cover;
+  height: 90%;
+  width: 90%;
+  background-color: var(--primary-color);
 }

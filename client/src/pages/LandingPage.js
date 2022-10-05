@@ -8,8 +8,8 @@ export default function LandingPage() {
             </h1>
             <div className="landing-container">
                 <a href="/drinks">
-                    <div className="landing-button">
-                        <h3>Browse Drinks</h3>
+                    <div className="landing-button button-flip">
+                        Browse Drinks
                     </div>
                 </a>
             </div>

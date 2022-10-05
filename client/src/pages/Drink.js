@@ -33,8 +33,9 @@ export default function Drink() {
         setDescription(descTemp)
     }
 
-    function hideImg() {
-        setImageLink("/images/generic-drink.jpg")
+    function replaceImg() {
+        document.getElementById("drinkImg").src = "/images/generic-drink.jpg"
+
     }
 
     return(
@@ -46,7 +47,7 @@ export default function Drink() {
             <h1>
                 {drink}
             </h1>
-            <img id="drinkImg" src={imageLink} onError={() => hideImg()}/>
+            <img id="drinkImg" src={"/images/" + window.location.pathname.split('/').pop() + ".jpg"} onError={() => replaceImg()}/>
             <p>
                 {description}
             </p>
