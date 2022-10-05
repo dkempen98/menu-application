@@ -181,22 +181,34 @@ body {
   width: 40%;
   height: 10rem;
   margin-bottom: 3rem;
-  background-color: var(--secondary-color);
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-width: 125px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .category-items {
   position: absolute;
-  
+  bottom: 0px;
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 100%;
+  line-height: 150%;
+  border-radius: 0 0 8px 8px;
+}
+
+.category-items div {
+  color: var(--secondary-color);
 }
 
 .category-images {
   object-fit: cover;
-  height: 90%;
-  width: 90%;
-  background-color: var(--primary-color);
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
 }
