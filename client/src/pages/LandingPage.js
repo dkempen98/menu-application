@@ -4,7 +4,7 @@ export default function LandingPage() {
     return(
         <div>
             <h1 className="page-header">
-                Kempen Spirits
+                The Kempen Spirits
             </h1>
             <div className="landing-container">
                 <a href="/drinks">
