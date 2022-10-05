@@ -178,9 +178,9 @@ body {
 }
 
 .category-drink-container {
-  width: 40%;
-  height: 10rem;
-  margin-bottom: 3rem;
+  width: 45%;
+  height: 12rem;
+  margin-bottom: 1rem;
   background-color: black;
   display: flex;
   flex-direction: column;
