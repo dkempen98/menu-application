@@ -3,7 +3,8 @@
   --primary-color: rgb(74, 5, 95);
   --secondary-color: #ff7300;
   --shadow: 2px 2px 8px black;
-  --header-font: 'Griffy', cursive;
+  /* --header-font: 'Griffy', cursive;*/
+  --header-font: 'Butcherman', cursive;
   --body-font: sans-serif;
 }
 
@@ -203,10 +204,9 @@ body {
 }
 
 .category-items div {
-  color: black;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  color: white;
+	font-size: 40px;
+	-webkit-text-stroke: 1.5px black;
   font-size: 1.75em;
 }
 
