@@ -196,14 +196,18 @@ body {
   position: absolute;
   bottom: 0px;
   text-align: center;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   width: 100%;
   line-height: 150%;
   border-radius: 0 0 8px 8px;
 }
 
 .category-items div {
-  color: var(--secondary-color);
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
 }
 
 .category-images {
