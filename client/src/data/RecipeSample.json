@@ -11,6 +11,28 @@
     "specialty": true
   },
   {
+    "drinkName": "Tequila Sunrise",
+    "category": "Tequila",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Orange Juice",
+    "ingredientAmount": 1,
+    "unitOfMeasure": "cup",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": true
+  },
+  {
+    "drinkName": "Tequila Sunrise",
+    "category": "Tequila",
+    "description": "This is the description of a Tequila Sunrise. I'm going to make it longer so it looks more like it will in reality.",
+    "ingredient": "Grenadine",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": true
+  },
+  {
     "drinkName": "Scotch That is on the Rocks",
     "category": "Scotch Whiskey",
     "description": "This is the description of a Tequila Sunrise",
