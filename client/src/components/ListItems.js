@@ -21,17 +21,17 @@ export default function ListItems({items, currentPageRoute, pageClass}) {
         
         if(pageClass === "category") {
             return (
-                <a href={currentPageRoute + "/" + slug} className="category-drink-container">
+                <a key={slug} href={currentPageRoute + "/" + slug} className="category-drink-container">
                     <img id={"drinkImg" + slug} className="category-images" src={imageLink} onError={() => replaceImg(slug)}/>
-                    <div key={slug} className={pageClass + "-items " + slug}>
+                    <div className={pageClass + "-items " + slug}>
                         <div>{item}</div>
                     </div>
                 </a>
             )
         }
         return (
-            <a href={currentPageRoute + "/" + slug}>
-                <div key={slug} className={pageClass + "-items card-hover " + slug}>
+            <a key={slug} href={currentPageRoute + "/" + slug}>
+                <div className={pageClass + "-items card-hover " + slug}>
                     <div>{item}</div>
                 </div>
             </a>
