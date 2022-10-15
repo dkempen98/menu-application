@@ -1,6 +1,6 @@
 :root {
-  /* --bg: rgb(152, 25, 163); */
-  --bg: rgb(58, 8, 63);
+  --bg: rgb(152, 25, 163);
+  /* --bg: rgb(102, 15, 110); */
   --primary-color: rgb(0, 0, 0);
   --secondary-color: #ff7300;
   --secondary-color-transparent: #ff730030;
@@ -24,12 +24,12 @@
 body {
   background-color: var(--bg);
   font-family: var(--body-font);
-  /* background-image: url(./images/spider-web-background.jpg); */
-  background-image: url(./images/web.jpg);
+  background-image: url(./images/spider-web-background.jpg);
+  /* background-image: url(./images/web.jpg); */
   background-color: var(--bg);
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
