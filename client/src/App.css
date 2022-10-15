@@ -98,6 +98,9 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 
+  border: 5px solid var(--secondary-color);
+  border-radius: 5px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,9 +207,13 @@ body {
   justify-content: space-around;
 }
 
+.category-container:last-child {
+  margin-bottom: 6rem;
+}
+
 .category-drink-container {
   width: 45%;
-  height: 12rem;
+  height: 13.5rem;
   margin-bottom: 1rem;
   background-color: black;
   display: flex;
