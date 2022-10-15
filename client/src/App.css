@@ -1,5 +1,5 @@
 :root {
-  --bg: rgb(152, 25, 163);
+  --bg: rgb(83, 7, 90);
   /* --bg: rgb(102, 15, 110); */
   --primary-color: rgb(0, 0, 0);
   --secondary-color: #ff7300;
@@ -27,7 +27,7 @@ body {
   background-image: url(./images/spider-web-background.jpg);
   /* background-image: url(./images/web.jpg); */
   background-color: var(--bg);
-  background-blend-mode: multiply;
+  background-blend-mode: darken;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
