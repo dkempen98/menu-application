@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 export default function ListItems({items, currentPageRoute, pageClass}) {
@@ -21,20 +22,20 @@ export default function ListItems({items, currentPageRoute, pageClass}) {
         
         if(pageClass === "category") {
             return (
-                <a key={slug} href={currentPageRoute + "/" + slug} className="category-drink-container">
+                <Link to={slug} href={currentPageRoute + "/" + slug} className="category-drink-container">
                     <img id={"drinkImg" + slug} className="category-images" src={imageLink} onError={() => replaceImg(slug)}/>
                     <div className={pageClass + "-items " + slug}>
                         <div>{item}</div>
                     </div>
-                </a>
+                </Link>
             )
         }
         return (
-            <a key={slug} href={currentPageRoute + "/" + slug}>
+            <Link to={slug} href={currentPageRoute + "/" + slug}>
                 <div className={pageClass + "-items card-hover " + slug}>
                     <div>{item}</div>
                 </div>
-            </a>
+            </Link>
         )
     })
     console.log(list)

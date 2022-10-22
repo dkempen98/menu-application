@@ -1,5 +1,5 @@
 import React from "react";
-import { redirect } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
 
 export default function BackButton() {
     function previousPage() {
@@ -13,10 +13,10 @@ export default function BackButton() {
         prevPage.pop()
         prevPage = prevPage.join("/")
         if(! prevPage) prevPage = "/"
-        window.location.href = prevPage
+        return prevPage
     }
 
     return (
-        <button onClick={() => previousPage()} className="back-button button-flip">&#8617;</button>
+        <Link to={previousPage()} className="back-button button-flip">&#8617;</Link>
     )
 }
