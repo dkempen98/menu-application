@@ -161,7 +161,7 @@ footer {
 
   border-top: 2px solid var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
-  height: 70vh;
+  height: 50vh;
 
   display: flex;
   align-items: center;
