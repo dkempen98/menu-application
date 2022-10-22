@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
     return(
@@ -7,11 +8,11 @@ export default function LandingPage() {
                 The Kempen Spirits
             </h1>
             <div className="landing-container">
-                <a href="/drinks">
+                <Link to="/drinks">
                     <div className="landing-button button-flip">
                         Browse Drinks
                     </div>
-                </a>
+                </Link>
             </div>
         </div>
     )

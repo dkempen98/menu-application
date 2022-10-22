@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ListItems({items, currentPageRoute, pageClass}) {
     if(! items) {
-        return <div>Loading...</div>
+        return <div></div>
     }
 
     function generateSlug(name) {

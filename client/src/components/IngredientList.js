@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 
 
-export default function IngredientList({ingredients}) {
+export default function IngredientList({ingredients, amounts}) {
     if(! ingredients) {
-        return <div>Loading...</div>
+        return <div></div>
     }
+
+    let i = -1;
+
     const list = ingredients.map((item) => {
+        i++
         return (
-            <li key={item}>{item}</li>
+            <div key={item} className='ingredient-item'>{item} <span>{amounts[i]}</span></div>
         )
     })
     return(
-        <ul className="ingredient-list">
+        <div className="ingredient-list">
+            <h3>Ingredients</h3>
             {list}
-        </ul>
+        </div>
     )
 }

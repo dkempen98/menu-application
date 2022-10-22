@@ -7,7 +7,7 @@ export default function Drink() {
     const [drink, setDrink] = useState()
     const [description, setDescription] = useState()
     const [ingredients, setIngredients] = useState()
-    const [imageLink, setImageLink] = useState("/images/" + window.location.pathname.split('/').pop() + ".jpg")
+    const [amounts, setAmounts] = useState()
 
     useEffect(() => {
         init()
@@ -25,7 +25,8 @@ export default function Drink() {
             if(curDrink === drinkPath) {
                 drinkTemp = item.drinkName
                 descTemp = item.description
-                ingredTemp.push(item.ingredientAmount + " " + item.unitOfMeasure + " " + item.ingredient)
+                ingredTemp.push(item.ingredient)
+                amountsTemp.push(item.ingredientAmount + " " + item.unitOfMeasure)
             }
         });
 
@@ -36,6 +37,7 @@ export default function Drink() {
         setDrink(drinkTemp)
         setDescription(descTemp)
         setIngredients(ingredTemp)
+        setAmounts(amountsTemp)
     }
 
     function replaceImg() {
@@ -57,6 +59,7 @@ export default function Drink() {
                 <span className="gradient-bottom-border-r"/>
                 <IngredientList
                 ingredients={ingredients}
+                amounts={amounts}
                 />
             </article>
             <BackButton/>

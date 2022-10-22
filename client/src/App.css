@@ -4,7 +4,8 @@
   --primary-color: rgb(0, 0, 0);
   --secondary-color: #ff7300;
   --secondary-color-transparent: #ff730030;
-  --shadow: 2px 2px 8px black;
+  --shadow: 0px 0px 12px var(--secondary-color);
+  --dark-shadow: 2px 2px 8px black;
   --header-font: 'Griffy', cursive;
   --body-font: sans-serif;
 }
@@ -50,8 +51,8 @@ body {
 
 .back-button {
   position: fixed;
-  bottom: 8px;
-  left: 8px;
+  bottom: 6px;
+  left: 4%;
   float: inherit;
 
   height: 50px;
@@ -62,7 +63,7 @@ body {
   font-weight: 900;
   border: 2px solid var(--secondary-color);
   border-radius: 100px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--dark-shadow);
   text-decoration: none;
 
   display: flex;
@@ -133,6 +134,44 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* Error Page */
+
+.error-container {
+  width: 90%;
+  height: 100vh;
+  max-width: 40rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.error-button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.error-button {
+  height: 3rem;
+  width: 10rem;
+
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  font-weight: bolder;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* Drinks Page styling */
 
@@ -229,7 +268,7 @@ body {
   min-width: 125px;
   position: relative;
   border-radius: 8px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--dark-shadow);
   transition: ease-in-out 200ms;
 }
 
@@ -269,7 +308,8 @@ body {
   background-color: var(--primary-color);
   border-radius: 10px;
   margin-top: 1rem;
-  /* margin-bottom: 6rem; */
+
+  box-shadow: var(--dark-shadow);
 }
 
 .drink-image {
@@ -292,7 +332,34 @@ body {
 }
 
 .ingredient-list {
-  list-style-type: square;
+  list-style: square;
+  margin: 0 1rem 1rem 1rem;
+  padding: none;
+}
+
+.ingredient-list h3{
+  text-align: center;
+}
+
+.ingredient-item {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.ingredient-item span {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.ingredient-item span::before{
+  content:'';
+  background: repeating-linear-gradient(to right, currentColor, currentColor 2px, transparent 2px, transparent 4px);
+  height: 1px;
+  flex-grow: 1;
+  display: inline-block;
+  margin-top: .6em;
+  margin-left: 3px;
 }
 
 .gradient-bottom-border-l {
