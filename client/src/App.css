@@ -140,9 +140,10 @@ footer {
 /* Landing page styling */
 
 .landing-container {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 15rem;
   /* align-items: center; */
   /* justify-content: center; */
 }
@@ -161,7 +162,7 @@ footer {
 
   border-top: 2px solid var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
-  height: 50vh;
+  height: 100%;
 
   display: flex;
   align-items: center;
