@@ -1,5 +1,5 @@
 :root {
-  --bg: rgb(83, 7, 90);
+  --bg: rgb(116, 10, 126);
   /* --bg: rgb(102, 15, 110); */
   --primary-color: rgb(0, 0, 0);
   --secondary-color: #ff7300;
@@ -105,6 +105,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  font-size: 1.75em;
 }
 
 .back-button svg path{
@@ -117,6 +119,7 @@ footer {
   text-align: center;
   line-height: 10vh;
 
+  font-size: 1.5em;
   color: var(--secondary-color);
   font-family: var(--header-font);
   font-weight: 400;
@@ -137,9 +140,16 @@ footer {
 /* Landing page styling */
 
 .landing-container {
-  width: 80%;
+  display: flex;
+  flex-direction: column;
   height: 80vh;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.primary-landing-container {
   margin: auto;
+  width: 100%;
   max-width: 800px;
 
   background-image: url('./images/landing-background.jpg');
@@ -149,31 +159,48 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
 
-  border: 5px solid var(--secondary-color);
-  border-radius: 5px;
+  border-top: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  height: 70vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  text-decoration: none;
 }
 
+.minor-landing-items {
+  margin-top: -2px;
+  
+  width: 100%;
+  display: flex;
+  /* gap: 2px; */
+}
 
-.landing-container a {
-  text-decoration: none;
+.minor-landing-items a {
+  width: 50%;
+  height: 43.5328vh;
+  background-color: var(--primary-color);
+  border-top: solid var(--secondary-color) 2px;
+}
+
+.minor-landing-items a:last-child {
+  border-left: solid var(--secondary-color) 2px;
 }
 
 .landing-button {
-  height: 3rem;
-  width: 10rem;
+  /* height: 20%;
+  width: 40%; */
 
+  height: 3rem;
+  width: 9rem;
 
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  text-decoration: none;
   border: 2px solid var(--secondary-color);
   border-radius: 8px;
   font-weight: bolder;
-
   
   display: flex;
   align-items: center;

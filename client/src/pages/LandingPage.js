@@ -7,13 +7,17 @@ export default function LandingPage() {
             <h1 className="page-header">
                 The Kempen Spirits
             </h1>
-            <div className="landing-container">
-                <Link to="/drinks">
+            <section className="landing-container">
+                <Link to="/drinks" className="primary-landing-container">
                     <div className="landing-button button-flip">
                         Browse Drinks
                     </div>
                 </Link>
-            </div>
+                {/* <div className="minor-landing-items">
+                    <Link>sdfgergf</Link>
+                    <Link>a;sdf</Link>
+                </div> */}
+            </section>
         </div>
     )
 }

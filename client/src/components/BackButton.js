@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, redirect } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMartiniGlass } from '@fortawesome/free-solid-svg-icons'
+import { faMartiniGlass, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 export default function BackButton() {
     function previousPage() {
@@ -16,7 +16,7 @@ export default function BackButton() {
     return (
         <div className="footer-buttons">
             <Link to="/drinks" className="back-button"><FontAwesomeIcon icon={ faMartiniGlass } /></Link>
-            <Link to={previousPage()} className="back-button">&#8617;</Link>
+            <Link to={previousPage()} className="back-button"><FontAwesomeIcon icon={ faCircleArrowLeft } /></Link>
         </div>
     )
 }
