@@ -1,13 +1,10 @@
 import React from "react";
 import { Link, redirect } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMartiniGlass } from '@fortawesome/free-solid-svg-icons'
 
 export default function BackButton() {
     function previousPage() {
-        // if(window.history.back(1).includes(window.location.hostname)) {
-        //     window.history.back(1)
-        // } else {
-        //     redirect("/")
-        // }
 
         let prevPage = window.location.pathname.split('/')
         prevPage.pop()
@@ -17,6 +14,9 @@ export default function BackButton() {
     }
 
     return (
-        <Link to={previousPage()} className="back-button button-flip">&#8617;</Link>
+        <div className="footer-buttons">
+            <Link to="/drinks" className="back-button"><FontAwesomeIcon icon={ faMartiniGlass } /></Link>
+            <Link to={previousPage()} className="back-button">&#8617;</Link>
+        </div>
     )
 }

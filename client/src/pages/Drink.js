@@ -62,7 +62,6 @@ export default function Drink() {
                 amounts={amounts}
                 />
             </article>
-            <BackButton/>
         </section>
     )
 }

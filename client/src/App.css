@@ -22,6 +22,11 @@
     user-select: var(--secondary-color-transparent);
 }
 
+html {
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
 body {
   background-color: var(--bg);
   font-family: var(--body-font);
@@ -33,6 +38,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 100%;
+  padding-top: .1px;
 }
 
 /* Reused elements */
@@ -49,26 +56,67 @@ body {
   box-shadow: var(--shadow);
 }
 
-.back-button {
+
+.card-hover {
+  transition: 250ms;
+}
+
+.card-hover:hover {
+  height: 8rem;
+}
+
+.bottom-margin {
+  height: 4rem;
+  /* background-color: black; */
+}
+
+footer {
   position: fixed;
-  bottom: 6px;
-  left: 4%;
-  float: inherit;
-
-  height: 50px;
-  width: 50px;
-
+  bottom: 0px;
   background-color: var(--primary-color);
+  height: 3rem;
+  width: 100%;
+
+  border-top: solid var(--secondary-color) 2px;
+  
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-buttons {
+  display: flex;
+  width: 40%;
+}
+
+.back-button {
+  /* height: 100%; */
+  width: 50%;
+
   color: var(--secondary-color);
   font-weight: 900;
-  border: 2px solid var(--secondary-color);
-  border-radius: 100px;
-  box-shadow: var(--dark-shadow);
+  border-left: 2px solid var(--secondary-color);
   text-decoration: none;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.back-button svg path{
+  color: var(--secondary-color);
+}
+
+.footer-title {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  line-height: 3rem;
+
+  color: var(--secondary-color);
+  font-family: var(--header-font);
+  font-weight: 400;
+
+  text-decoration: none;
 }
 
 .back-button:hover {
@@ -79,14 +127,6 @@ body {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border-color: var(--primary-color);
-}
-
-.card-hover {
-  transition: 250ms;
-}
-
-.card-hover:hover {
-  height: 8rem;
 }
 
 /* Landing page styling */
@@ -251,10 +291,6 @@ body {
   justify-content: space-around;
 }
 
-.category-container:last-child {
-  margin-bottom: 6rem;
-}
-
 .category-drink-container {
   width: 45%;
   height: 40vh;
@@ -314,7 +350,6 @@ body {
 
 .drink-image {
   max-width: calc(100% - 2rem);
-  margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 5px;
   align-self: center;
@@ -382,7 +417,3 @@ body {
   border-image-slice: 1;
 }
 
-.footer {
-  height: 4rem;
-  /* background-color: black; */
-}

@@ -65,7 +65,6 @@ export default function DrinkCategory() {
                 currentPageRoute = {window.location.pathname}
                 pageClass = "category"
             />
-            <BackButton/>
         </section>
     )
 }
