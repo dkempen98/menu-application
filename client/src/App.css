@@ -23,30 +23,28 @@
 }
 
 html {
-  /* height: 100%; */
+  min-height: 100vh;
   background-color: var(--primary-color);
 
-  background-image: url(./images/spider-web-background.jpg);
-  /* background-image: url(./images/web.jpg); */
-  background-color: var(--bg);
-  background-blend-mode: darken;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-body {
-  /* background-color: var(--bg); */
-  font-family: var(--body-font);
   /* background-image: url(./images/spider-web-background.jpg);
   background-color: var(--bg);
   background-blend-mode: darken;
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat; */
+}
+
+body {
+  font-family: var(--body-font);
+  background-image: url(./images/spider-web-background.jpg);
+  background-color: var(--bg);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed; */
-  /* height: 100%; */
-  /* padding-top: .1px; */
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: .1px;
 }
 
 /* Reused elements */
@@ -73,7 +71,7 @@ body {
 }
 
 .bottom-margin {
-  height: 4rem;
+  height: 12vh;
   /* background-color: black; */
 }
 
@@ -81,7 +79,7 @@ footer {
   position: fixed;
   bottom: 0px;
   background-color: var(--primary-color);
-  height: 3rem;
+  height: 10vh;
   width: 100%;
 
   border-top: solid var(--secondary-color) 2px;
@@ -117,7 +115,7 @@ footer {
   width: 60%;
   height: 100%;
   text-align: center;
-  line-height: 3rem;
+  line-height: 10vh;
 
   color: var(--secondary-color);
   font-family: var(--header-font);
