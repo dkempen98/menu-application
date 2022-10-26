@@ -209,17 +209,6 @@
     "specialty": false
   },
   {
-    "drinkName": "Red Rum",
-    "category": "Rum",
-    "description": "This is the description of a Tequila Sunrise",
-    "ingredient": "Silver Tequila",
-    "ingredientAmount": 1.5,
-    "unitOfMeasure": "fl oz",
-    "inventoryAmount": 25.360000610351564,
-    "invUnitOfMeasure": "fl oz",
-    "specialty": false
-  },
-  {
     "drinkName": "Whiskey Sour",
     "category": "Whiskey",
     "description": "This is the description of a Tequila Sunrise",
