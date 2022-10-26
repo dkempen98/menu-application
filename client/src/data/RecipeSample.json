@@ -33,8 +33,8 @@
     "specialty": true
   },
   {
-    "drinkName": "Scotch That is on the Rocks",
-    "category": "Scotch Whiskey",
+    "drinkName": "Negroni",
+    "category": "Gin",
     "description": "This is the description of a Tequila Sunrise",
     "ingredient": "Silver Tequila",
     "ingredientAmount": 1.5,
@@ -44,7 +44,73 @@
     "specialty": true
   },
   {
-    "drinkName": "Vodka Sunset",
+    "drinkName": "Martini",
+    "category": "Gin",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Silver Bullet",
+    "category": "Gin",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Gin and Tonic",
+    "category": "Gin",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Tequila Fizz",
+    "category": "Tequila",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Witches Brew",
+    "category": "Tequila",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Multiple Orgasm",
+    "category": "Tequila",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Lemon Drop",
     "category": "Vodka",
     "description": "This is the description of a Tequila Sunrise",
     "ingredient": "Silver Tequila",
@@ -55,7 +121,7 @@
     "specialty": false
   },
   {
-    "drinkName": "Shot of Vodka",
+    "drinkName": "Mudslide",
     "category": "Vodka",
     "description": "This is the description of a Tequila Sunrise",
     "ingredient": "Silver Tequila",
@@ -66,8 +132,118 @@
     "specialty": false
   },
   {
-    "drinkName": "Shot of Vodka",
+    "drinkName": "White Russian",
     "category": "Vodka",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Monster Smash",
+    "category": "Vodka",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Vampires Kiss",
+    "category": "Vodka",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "category": "Vodka",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "category": "Rum",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Poison Apple",
+    "category": "Rum",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Black Widow",
+    "category": "Rum",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Red Rum",
+    "category": "Rum",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "category": "Whiskey",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Manhattan",
+    "category": "Whiskey",
+    "description": "This is the description of a Tequila Sunrise",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "inventoryAmount": 25.360000610351564,
+    "invUnitOfMeasure": "fl oz",
+    "specialty": false
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "category": "Whiskey",
     "description": "This is the description of a Tequila Sunrise",
     "ingredient": "Silver Tequila",
     "ingredientAmount": 1.5,

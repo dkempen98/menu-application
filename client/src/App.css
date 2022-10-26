@@ -306,13 +306,23 @@ footer {
   background-image: url('./images/tequila.jpg');
 }
 
-.scotch-whiskey {
+.whiskey {
   background-image: url('./images/scotch-whiskey.jpg');
   background-position: center center;
 }
 
 .halloween {
   background-image: url('./images/halloween.jpg');
+  background-position: center center;
+}
+
+.gin {
+  background-image: url('./images/gin.jpg');
+  background-position: center center;
+}
+
+.rum {
+  background-image: url('./images/rum.jpg');
   background-position: center center;
 }
 
