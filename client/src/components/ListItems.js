@@ -22,7 +22,7 @@ export default function ListItems({items, currentPageRoute, pageClass}) {
         
         if(pageClass === "category") {
             return (
-                <Link to={slug} href={currentPageRoute + "/" + slug} className="category-drink-container">
+                <Link to={slug} href={currentPageRoute + "/" + slug} className="category-drink-container" key={slug}>
                     <img id={"drinkImg" + slug} className="category-images" src={imageLink} onError={() => replaceImg(slug)}/>
                     <div className={pageClass + "-items " + slug}>
                         <div>{item}</div>
@@ -31,14 +31,13 @@ export default function ListItems({items, currentPageRoute, pageClass}) {
             )
         }
         return (
-            <Link to={slug} href={currentPageRoute + "/" + slug}>
+            <Link to={slug} href={currentPageRoute + "/" + slug} key={slug}>
                 <div className={pageClass + "-items card-hover " + slug}>
                     <div>{item}</div>
                 </div>
             </Link>
         )
     })
-    console.log(list)
     return (
         <section className={pageClass + "-container"}>
             {list}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListItems from "../components/ListItems";
 import drinkList from "../data/RecipeSample.json"
-import BackButton from "../components/BackButton";
+import SetLiquorTypes from "../components/SetLiquorTypes";
 
 export default function Drinks() {
     const [categories, setCategories] = useState()
@@ -15,18 +15,10 @@ export default function Drinks() {
     // TODO: This will need additional logic to evaluate if a drink has all ingredients in stock once stock data is available
 
     function init() {
-        let cats = []
-        for (let i = 0; i < drinkList.length; i++) {
-            if(! cats.includes(drinkList[i].category)) {
-                cats.push(drinkList[i].category)
-            }
-        }
-        cats.sort()
-        // TODO: use unshift on this array to add a seasonal item if one exists
+        let cats = SetLiquorTypes(drinkList)
         cats.unshift("All")
-        if(holiday != '') {cats.unshift(holiday)};
+        if(holiday) {cats.unshift(holiday)};
         setCategories(cats)
-        console.log(window.history)
     }
 
     return(

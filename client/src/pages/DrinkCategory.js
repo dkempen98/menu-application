@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import BackButton from "../components/BackButton";
 import ListItems from "../components/ListItems";
+import SetLiquorTypes from "../components/SetLiquorTypes";
 import drinkList from "../data/RecipeSample.json"
 
 export default function DrinkCategory() {
     const [drinks, setDrinks] = useState()
-    const [category, setCategory] = useState("All")
+    const [category, setCategory] = useState()
 
     useEffect(() => {
         init()
@@ -25,22 +24,36 @@ export default function DrinkCategory() {
                 if(! drinkNames.includes(drinkList[i].drinkName)) {
                     drinkNames.push(drinkList[i].drinkName)
                 }
+                setCategory("All")
             }
-        } else {
+        } else if(pageCategory === "halloween") {
+
             for (let i = 0; i < drinkList.length; i++) {
-                let drinkCategory = drinkList[i].category.toLowerCase().split(' ').join('-')
-    
-                if((! drinkNames.includes(drinkList[i].drinkName) && drinkCategory === pageCategory)) {
+                if(! drinkNames.includes(drinkList[i].drinkName) && drinkList[i].holidayID === 1) {
                     drinkNames.push(drinkList[i].drinkName)
                 }
+                setCategory("Halloween")
+            }
+        } else {
+
+            for (let i = 0; i < drinkList.length; i++) {
+                let liquors = SetLiquorTypes([drinkList[i]])
+
+                liquors.forEach(item => {
+                    if((! drinkNames.includes(drinkList[i].drinkName) && item.toLowerCase().split(' ').join('-') === pageCategory)) {
+                        drinkNames.push(drinkList[i].drinkName)
+                    }
+                });
             }
             drinkList.every(item => {
-                let curCat = item.category
-                curCat = curCat.toLowerCase().split(' ').join('-')
-                if(curCat === pageCategory) {
-                    pageCategory = item.category
-                    return false
-                }
+                let curCats = SetLiquorTypes([item])
+                curCats.forEach(liquor => {
+                    let slugged = liquor.toLowerCase().split(' ').join('-')
+                    if(slugged === pageCategory) {
+                        pageCategory = liquor
+                        return false
+                    }
+                })
                 return true
             });
             setCategory(pageCategory)
