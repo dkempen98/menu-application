@@ -13,10 +13,14 @@ export default function LandingPage() {
                         Browse Drinks
                     </div>
                 </Link>
-                {/* <div className="minor-landing-items">
-                    <Link>sdfgergf</Link>
-                    <Link>a;sdf</Link>
-                </div> */}
+                <div className="minor-landing-items">
+                    <Link to={"/drinks/tequila/witches-brew"} className='witches-brew'>
+                        <div>Witches Brew</div>
+                    </Link>
+                    <Link to={"/drinks/rum/poison-apple"} className='poison-apple'>
+                        <div>Poison Apple</div>
+                    </Link>
+                </div>
             </section>
         </div>
     )

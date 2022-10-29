@@ -143,7 +143,7 @@ footer {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  height: 15rem;
+  /* min-height: 100vh; */
   /* align-items: center; */
   /* justify-content: center; */
 }
@@ -152,9 +152,10 @@ footer {
   margin: auto;
   width: 100%;
   max-width: 800px;
+  min-height: 16rem;
 
   background-image: url('./images/landing-background.jpg');
-  background-color: rgb(139, 139, 139);
+  background-color: rgb(182, 181, 181);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -181,13 +182,41 @@ footer {
 
 .minor-landing-items a {
   width: 50%;
-  height: 43.5328vh;
+  height: 13rem;
   background-color: var(--primary-color);
   border-top: solid var(--secondary-color) 2px;
+  border-bottom: solid var(--secondary-color) 2px;
+
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  position: relative;
 }
 
 .minor-landing-items a:last-child {
   border-left: solid var(--secondary-color) 2px;
+}
+
+.minor-landing-items a div {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  line-height: 150%;
+  border-radius: 0 0 8px 8px;
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  font-weight: bolder;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+
 }
 
 .landing-button {
@@ -206,6 +235,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.witches-brew {
+  background-image: url(./images/witches-brew.jpg);
+}
+
+.poison-apple {
+  background-image: url(./images/poison-apple.jpg);
 }
 
 /* Error Page */
@@ -323,6 +360,11 @@ footer {
 
 .rum {
   background-image: url('./images/rum.jpg');
+  background-position: center center;
+}
+
+.champagne {
+  background-image: url('./images/champagne.jpg');
   background-position: center center;
 }
 

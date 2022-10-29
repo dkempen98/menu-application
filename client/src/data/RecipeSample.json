@@ -1,7 +1,7 @@
 [
   {
     "drinkName": "Tequila Sunrise",
-    "description": "This is the description of a Tequila Sunrise",
+    "description": "The Tequila Sunrise created in Phoenix Arizona in the 1930's and popularized in the 70's due to Mick Jaggers love of the drink. It is a sweet citrusy drink that has a layered look reminiscent of a sunrise. ",
     "ingredient": "Silver Tequila",
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
@@ -10,7 +10,7 @@
   },
   {
     "drinkName": "Tequila Sunrise",
-    "description": "This is the description of a Tequila Sunrise",
+    "description": "The Tequila Sunrise created in Phoenix Arizona in the 1930's and popularized in the 70's due to Mick Jaggers love of the drink. It is a sweet citrusy drink that has a layered look reminiscent of a sunrise. ",
     "ingredient": "Orange Juice",
     "ingredientAmount": 6.0,
     "unitOfMeasure": "fl oz",
@@ -19,7 +19,7 @@
   },
   {
     "drinkName": "Tequila Sunrise",
-    "description": "This is the description of a Tequila Sunrise",
+    "description": "The Tequila Sunrise created in Phoenix Arizona in the 1930's and popularized in the 70's due to Mick Jaggers love of the drink. It is a sweet citrusy drink that has a layered look reminiscent of a sunrise. ",
     "ingredient": "Grenadine",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -28,7 +28,7 @@
   },
   {
     "drinkName": "Tequila Sunrise",
-    "description": "This is the description of a Tequila Sunrise",
+    "description": "The Tequila Sunrise created in Phoenix Arizona in the 1930's and popularized in the 70's due to Mick Jaggers love of the drink. It is a sweet citrusy drink that has a layered look reminiscent of a sunrise. ",
     "ingredient": "Club Soda",
     "ingredientAmount": 2.5,
     "unitOfMeasure": "fl oz",
@@ -37,7 +37,7 @@
   },
   {
     "drinkName": "Witches Brew",
-    "description": "Hold",
+    "description": "This dastardly concoction is a mildly sweet drink with hints of melon flavoring thanks to the Midori.",
     "ingredient": "Silver Tequila",
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
@@ -46,7 +46,7 @@
   },
   {
     "drinkName": "Witches Brew",
-    "description": "Hold",
+    "description": "This dastardly concoction is a mildly sweet drink with hints of melon flavoring thanks to the Midori.",
     "ingredient": "Melon Liqueur",
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
@@ -55,7 +55,7 @@
   },
   {
     "drinkName": "Witches Brew",
-    "description": "Hold",
+    "description": "This dastardly concoction is a mildly sweet drink with hints of melon flavoring thanks to the Midori.",
     "ingredient": "Pineapple Juice",
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
@@ -64,7 +64,7 @@
   },
   {
     "drinkName": "Witches Brew",
-    "description": "Hold",
+    "description": "This dastardly concoction is a mildly sweet drink with hints of melon flavoring thanks to the Midori.",
     "ingredient": "Lemon Juice",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -73,7 +73,7 @@
   },
   {
     "drinkName": "Monster Smash",
-    "description": "Hold",
+    "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
     "ingredient": "Vodka",
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
@@ -82,7 +82,7 @@
   },
   {
     "drinkName": "Monster Smash",
-    "description": "Hold",
+    "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
     "ingredient": "Simple Syrup",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -91,7 +91,7 @@
   },
   {
     "drinkName": "Monster Smash",
-    "description": "Hold",
+    "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
     "ingredient": "Tonic Water",
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
@@ -100,11 +100,749 @@
   },
   {
     "drinkName": "Monster Smash",
-    "description": "Hold",
+    "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
     "ingredient": "Lime Juice",
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Monster Smash",
+    "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
+    "ingredient": "Grape",
+    "ingredientAmount": 5.0,
+    "unitOfMeasure": "Count",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Negroni",
+    "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
+    "ingredient": "Gin",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Negroni",
+    "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
+    "ingredient": "Campari",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Negroni",
+    "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
+    "ingredient": "Sweet Vermouth",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Negroni",
+    "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
+    "ingredient": "Club Soda",
+    "ingredientAmount": 2.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Negroni",
+    "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
+    "ingredient": "Orange Slice",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Martini",
+    "description": "Famously ordered by my 2nd favorite James, this classic drink is on the dryer side and is quite bitter. If you don't like the taste of gin, try the dirty version where an additional half oz of olive juice tones down the gin and vermouth",
+    "ingredient": "Gin",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Martini",
+    "description": "Famously ordered by my 2nd favorite James, this classic drink is on the dryer side and is quite bitter. If you don't like the taste of gin, try the dirty version where an additional half oz of olive juice tones down the gin and vermouth",
+    "ingredient": "Dry Vermouth",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Martini",
+    "description": "Famously ordered by my 2nd favorite James, this classic drink is on the dryer side and is quite bitter. If you don't like the taste of gin, try the dirty version where an additional half oz of olive juice tones down the gin and vermouth",
+    "ingredient": "Green Cocktail Olive",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "Gin",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "Vodka",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "White Rum",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "Cointreau",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "Lemon Juice",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "Simple Syrup",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Zombie Smash",
+    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "ingredient": "Strawberry",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "Count",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+  },
+  {
+    "drinkName": "Poison Apple",
+    "description": "Oooo swirls",
+    "ingredient": "Apple Cider",
+    "ingredientAmount": 4.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 3}"
+  },
+  {
+    "drinkName": "Poison Apple",
+    "description": "Oooo swirls",
+    "ingredient": "Spiced Rum",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 3}"
+  },
+  {
+    "drinkName": "Poison Apple",
+    "description": "Oooo swirls",
+    "ingredient": "Pomegranate Juice",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 3}"
+  },
+  {
+    "drinkName": "Poison Apple",
+    "description": "Oooo swirls",
+    "ingredient": "Grenadine",
+    "ingredientAmount": 0.75,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 3}"
+  },
+  {
+    "drinkName": "Vampire's Kiss",
+    "description": "The Vampire’s Kiss cocktail is a bright red cocktail that’s made with vodka and raspberry liqueur. It often includes champagne, but there’s no standardized definition to this drink. This spin passes on the champagne in favor of fresh lemon juice and cranberry juice.",
+    "ingredient": "Vodka",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Vampire's Kiss",
+    "description": "The Vampire’s Kiss cocktail is a bright red cocktail that’s made with vodka and raspberry liqueur. It often includes champagne, but there’s no standardized definition to this drink. This spin passes on the champagne in favor of fresh lemon juice and cranberry juice.",
+    "ingredient": "Chambord",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Vampire's Kiss",
+    "description": "The Vampire’s Kiss cocktail is a bright red cocktail that’s made with vodka and raspberry liqueur. It often includes champagne, but there’s no standardized definition to this drink. This spin passes on the champagne in favor of fresh lemon juice and cranberry juice.",
+    "ingredient": "Cranberry Juice",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Vampire's Kiss",
+    "description": "The Vampire’s Kiss cocktail is a bright red cocktail that’s made with vodka and raspberry liqueur. It often includes champagne, but there’s no standardized definition to this drink. This spin passes on the champagne in favor of fresh lemon juice and cranberry juice.",
+    "ingredient": "Lemon Juice",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Vampire's Kiss",
+    "description": "The Vampire’s Kiss cocktail is a bright red cocktail that’s made with vodka and raspberry liqueur. It often includes champagne, but there’s no standardized definition to this drink. This spin passes on the champagne in favor of fresh lemon juice and cranberry juice.",
+    "ingredient": "Grenadine",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Spice White Russian",
+    "description": "The Dude is confused maaan",
+    "ingredient": "Vodka",
+    "ingredientAmount": 3.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Spice White Russian",
+    "description": "The Dude is confused maaan",
+    "ingredient": "Pumpkin Spice Creamer",
+    "ingredientAmount": 3.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Spice White Russian",
+    "description": "The Dude is confused maaan",
+    "ingredient": "Khalua",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Spice White Russian",
+    "description": "The Dude is confused maaan",
+    "ingredient": "Whipped Cream",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Poison Apple",
+    "description": "Oooo swirls",
+    "ingredient": "Edible Glitter",
+    "ingredientAmount": 0.25,
+    "unitOfMeasure": "tsp",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 3}"
+  },
+  {
+    "drinkName": "Apple Cider Mimosa",
+    "description": "A more season appropriate version of the orange version, this drink substitutes apple cider and is a great tasting choice for any occasion.",
+    "ingredient": "Apple Cider",
+    "ingredientAmount": 3.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 9}"
+  },
+  {
+    "drinkName": "Apple Cider Mimosa",
+    "description": "A more season appropriate version of the orange version, this drink substitutes apple cider and is a great tasting choice for any occasion.",
+    "ingredient": "Champagne",
+    "ingredientAmount": 3.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 9}"
+  },
+  {
+    "drinkName": "Apple Cider Mimosa",
+    "description": "A more season appropriate version of the orange version, this drink substitutes apple cider and is a great tasting choice for any occasion.",
+    "ingredient": "Apple Slice",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 9}"
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "description": "Does this share anything in common with a classic martini other than the glass? No, but this is a much sweeter version and goes all in on the season!",
+    "ingredient": "Vodka",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "description": "Does this share anything in common with a classic martini other than the glass? No, but this is a much sweeter version and goes all in on the season!",
+    "ingredient": "Heavy Cream",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "description": "Does this share anything in common with a classic martini other than the glass? No, but this is a much sweeter version and goes all in on the season!",
+    "ingredient": "Maple Syrup",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "description": "Does this share anything in common with a classic martini other than the glass? No, but this is a much sweeter version and goes all in on the season!",
+    "ingredient": "Pumpkin Puree",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "Tbsp",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "description": "Does this share anything in common with a classic martini other than the glass? No, but this is a much sweeter version and goes all in on the season!",
+    "ingredient": "Pumpkin Pie Spice",
+    "ingredientAmount": 0.25,
+    "unitOfMeasure": "tsp",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Pumpkin Martini",
+    "description": "Does this share anything in common with a classic martini other than the glass? No, but this is a much sweeter version and goes all in on the season!",
+    "ingredient": "Vanilla Extract",
+    "ingredientAmount": 0.25,
+    "unitOfMeasure": "tsp",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Gin and Tonic",
+    "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
+    "ingredient": "Gin",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Gin and Tonic",
+    "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
+    "ingredient": "Tonic Water",
+    "ingredientAmount": 4.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Gin and Tonic",
+    "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
+    "ingredient": "Lime Wedge",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 2}"
+  },
+  {
+    "drinkName": "Tequila Fizz",
+    "description": "A sour citrusy drink with a slight bite from the silver tequila",
+    "ingredient": "Silver Tequila",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Tequila Fizz",
+    "description": "A sour citrusy drink with a slight bite from the silver tequila",
+    "ingredient": "Lemon Juice",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Tequila Fizz",
+    "description": "A sour citrusy drink with a slight bite from the silver tequila",
+    "ingredient": "Sugar",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "tsp",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Tequila Fizz",
+    "description": "A sour citrusy drink with a slight bite from the silver tequila",
+    "ingredient": "Club Soda",
+    "ingredientAmount": 2.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Multiple Orgasm",
+    "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
+    "ingredient": "Amaretto",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Multiple Orgasm",
+    "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
+    "ingredient": "Khalua",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Multiple Orgasm",
+    "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
+    "ingredient": "Baily's Irish Cream",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Multiple Orgasm",
+    "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
+    "ingredient": "Heavy Cream",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Multiple Orgasm",
+    "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
+    "ingredient": "Gold Tequila",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 4}"
+  },
+  {
+    "drinkName": "Lemon Drop",
+    "description": "A new classic, this cocktail has the perfect balance of sweet and tart.",
+    "ingredient": "Lemon Flavored Vodka",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Lemon Drop",
+    "description": "A new classic, this cocktail has the perfect balance of sweet and tart.",
+    "ingredient": "Grand Marnier",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Lemon Drop",
+    "description": "A new classic, this cocktail has the perfect balance of sweet and tart.",
+    "ingredient": "Lemon Juice",
+    "ingredientAmount": 1.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Lemon Drop",
+    "description": "A new classic, this cocktail has the perfect balance of sweet and tart.",
+    "ingredient": "Orange Juice",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Lemon Drop",
+    "description": "A new classic, this cocktail has the perfect balance of sweet and tart.",
+    "ingredient": "Lemon Twist",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Mudslide",
+    "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
+    "ingredient": "Vodka",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Mudslide",
+    "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
+    "ingredient": "Khalua",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Mudslide",
+    "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
+    "ingredient": "Baily's Irish Cream",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Mudslide",
+    "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
+    "ingredient": "Heavy Cream",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Mudslide",
+    "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
+    "ingredient": "Cocoa Powder",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Simple Syrup",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Blackberry Juice",
+    "ingredientAmount": 4.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Vodka",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Blackberry",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Manhattan",
+    "description": "Typically served with Rye whiskey, this American classic originated in New York City in the 1880's and has stood the test of time.",
+    "ingredient": "Rye Whiskey",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Manhattan",
+    "description": "Typically served with Rye whiskey, this American classic originated in New York City in the 1880's and has stood the test of time.",
+    "ingredient": "Sweet Vermouth",
+    "ingredientAmount": 0.75,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Manhattan",
+    "description": "Typically served with Rye whiskey, this American classic originated in New York City in the 1880's and has stood the test of time.",
+    "ingredient": "Angostura Bitters",
+    "ingredientAmount": 3.0,
+    "unitOfMeasure": "Dash",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Manhattan",
+    "description": "Typically served with Rye whiskey, this American classic originated in New York City in the 1880's and has stood the test of time.",
+    "ingredient": "Maraschino Cherry",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
+    "ingredient": "Sugar Cube",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
+    "ingredient": "Angostura Bitters",
+    "ingredientAmount": 3.0,
+    "unitOfMeasure": "Dash",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
+    "ingredient": "Lemon Zest",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
+    "ingredient": "Orange Slice",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
+    "ingredient": "Maraschino Cherry",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Old Fashioned",
+    "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
+    "ingredient": "Bourbon",
+    "ingredientAmount": 2.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Bourbon",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Lemon Juice",
+    "ingredientAmount": 0.75,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Egg White",
+    "ingredientAmount": 0.5,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Simple Syrup",
+    "ingredientAmount": 0.75,
+    "unitOfMeasure": "fl oz",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Orange Slice",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Maraschino Cherry",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Count",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
+  },
+  {
+    "drinkName": "Whiskey Sour",
+    "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
+    "ingredient": "Angostura Bitters",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "Dash",
+    "holidayID": null,
+    "liquorTypes": "{\"liquor_id\": 6}"
   }
 ]
