@@ -112,7 +112,7 @@
     "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
     "ingredient": "Grape",
     "ingredientAmount": 5.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -157,7 +157,7 @@
     "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
     "ingredient": "Orange Slice",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 2}"
   },
@@ -184,7 +184,7 @@
     "description": "Famously ordered by my 2nd favorite James, this classic drink is on the dryer side and is quite bitter. If you don't like the taste of gin, try the dirty version where an additional half oz of olive juice tones down the gin and vermouth",
     "ingredient": "Green Cocktail Olive",
     "ingredientAmount": 2.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 2}"
   },
@@ -247,7 +247,7 @@
     "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Strawberry",
     "ingredientAmount": 2.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
   },
@@ -364,7 +364,7 @@
     "description": "The Dude is confused maaan",
     "ingredient": "Whipped Cream",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -400,7 +400,7 @@
     "description": "A more season appropriate version of the orange version, this drink substitutes apple cider and is a great tasting choice for any occasion.",
     "ingredient": "Apple Slice",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 9}"
   },
@@ -481,7 +481,7 @@
     "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
     "ingredient": "Lime Wedge",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 2}"
   },
@@ -607,7 +607,7 @@
     "description": "A new classic, this cocktail has the perfect balance of sweet and tart.",
     "ingredient": "Lemon Twist",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -652,7 +652,7 @@
     "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
     "ingredient": "Cocoa Powder",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -688,7 +688,7 @@
     "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
     "ingredient": "Blackberry",
     "ingredientAmount": 2.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -724,7 +724,7 @@
     "description": "Typically served with Rye whiskey, this American classic originated in New York City in the 1880's and has stood the test of time.",
     "ingredient": "Maraschino Cherry",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -733,7 +733,7 @@
     "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
     "ingredient": "Sugar Cube",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -751,7 +751,7 @@
     "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
     "ingredient": "Lemon Zest",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -760,7 +760,7 @@
     "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
     "ingredient": "Orange Slice",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -769,7 +769,7 @@
     "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
     "ingredient": "Maraschino Cherry",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -823,7 +823,7 @@
     "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
     "ingredient": "Orange Slice",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -832,7 +832,7 @@
     "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
     "ingredient": "Maraschino Cherry",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "Count",
+    "unitOfMeasure": "",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
