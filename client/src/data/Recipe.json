@@ -190,7 +190,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Gin",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -199,7 +199,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Vodka",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -208,7 +208,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "White Rum",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -217,7 +217,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Cointreau",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
@@ -226,7 +226,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Lemon Juice",
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
@@ -235,7 +235,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Simple Syrup",
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
@@ -244,7 +244,7 @@
   },
   {
     "drinkName": "Zombie Smash",
-    "description": "This brain basher is a citrusy delight with just enough straberry flavor to cover up some of the bite from this flesh eating libation.",
+    "description": "This brain basher is a citrusy delight with just enough strawberry flavor to cover up some of the bite from this flesh eating libation.",
     "ingredient": "Strawberry",
     "ingredientAmount": 2.0,
     "unitOfMeasure": "",
@@ -533,7 +533,7 @@
   {
     "drinkName": "Multiple Orgasm",
     "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
-    "ingredient": "Khalua",
+    "ingredient": "Kahlúa",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
@@ -542,7 +542,7 @@
   {
     "drinkName": "Multiple Orgasm",
     "description": "Why we didn't take the picture of this one ourselves we will never know. Poor baby boy Drew will never be the same.",
-    "ingredient": "Baily's Irish Cream",
+    "ingredient": "Baileys Irish Cream",
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
@@ -632,7 +632,7 @@
   {
     "drinkName": "Mudslide",
     "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
-    "ingredient": "Baily's Irish Cream",
+    "ingredient": "Baileys Irish Cream",
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
@@ -651,8 +651,8 @@
     "drinkName": "Mudslide",
     "description": "The mudslide is a popular cocktail that can be served on the rocks or blended into a boozy milkshake. Both are a delicious and perfectly sweet mix of vodka, cream, and coffee and incredibly easy to make.",
     "ingredient": "Cocoa Powder",
-    "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "ingredientAmount": "",
+    "unitOfMeasure": "Garnish",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 5}"
   },

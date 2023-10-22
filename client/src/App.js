@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { StateProvider } from './StateContext'; 
 import Drink from './pages/Drink';
 import DrinkCategory from './pages/DrinkCategory';
 import Drinks from './pages/Drinks';
@@ -11,7 +12,7 @@ import 'normalize.css';
 
 function App() {
   return (
-      <div>
+      <StateProvider>
         <Router>
           <div>
             {/* <Navbar /> */}
@@ -42,7 +43,7 @@ function App() {
           </div>
           <Footer/>
         </Router>
-      </div>
+      </StateProvider>
 
   );
 }

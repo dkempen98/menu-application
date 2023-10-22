@@ -1,23 +1,42 @@
 import React, { useEffect, useState } from "react";
 import ListItems from "../components/ListItems";
-import drinkList from "../data/RecipeSample.json"
+import drinkList from "../data/Recipe.json"
 import SetLiquorTypes from "../components/SetLiquorTypes";
+import { useStateContext } from "../StateContext";
 
 export default function Drinks() {
+
+    const {
+        inStock,
+        overrideStockCheck,
+        holiday
+    } = useStateContext()
+
     const [categories, setCategories] = useState()
-    const [holiday, setHoliday] = useState('Halloween')
 
     useEffect(() => {
         init()
     }, [])
 
+    useEffect(() => {
+        init()
+    }, [inStock, overrideStockCheck])
+
     // Find categories with at least one drink with the necessary ingredients in stock, if already in list skip evaluation
-    // TODO: This will need additional logic to evaluate if a drink has all ingredients in stock once stock data is available
 
     function init() {
-        let cats = SetLiquorTypes(drinkList)
+        let cats
+
+        if(overrideStockCheck) {
+            cats = SetLiquorTypes(drinkList)
+        } else {
+            cats = SetLiquorTypes(inStock)
+        }
+
         cats.unshift("All")
+
         if(holiday) {cats.unshift(holiday)};
+
         setCategories(cats)
     }
 

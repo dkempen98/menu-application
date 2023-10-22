@@ -1,0 +1,38 @@
+[
+  {
+    "ingredient": "Silver Tequila",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Orange Juice",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Grenadine",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Club Soda",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Vodka",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Simple Syrup",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Tonic Water",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Lime Juice",
+    "inStock": 1
+  },
+  {
+    "ingredient": "Grape",
+    "inStock": 1
+  }
+]

@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
 import ListItems from "../components/ListItems";
 import SetLiquorTypes from "../components/SetLiquorTypes";
-import drinkList from "../data/RecipeSample.json"
+import drinkList from "../data/Recipe.json"
+import { useStateContext } from "../StateContext";
 
 export default function DrinkCategory() {
+    const {
+        checkStock
+    } = useStateContext()
+
     const [drinks, setDrinks] = useState()
     const [category, setCategory] = useState()
 
@@ -12,7 +17,6 @@ export default function DrinkCategory() {
     }, [])
 
     // Find categories with at least one drink with the necessary ingredients in stock, if already in list skip evaluation
-    // TODO: This will need additional logic to evaluate if a drink has all ingredients in stock once stock data is available
 
     
     function init() {
@@ -21,7 +25,8 @@ export default function DrinkCategory() {
         
         if(pageCategory === "all") {
             for (let i = 0; i < drinkList.length; i++) {
-                if(! drinkNames.includes(drinkList[i].drinkName)) {
+                console.log(checkStock(drinkList[i].drinkName))
+                if(!drinkNames.includes(drinkList[i].drinkName) && checkStock(drinkList[i].drinkName)) {
                     drinkNames.push(drinkList[i].drinkName)
                 }
                 setCategory("All")
@@ -29,7 +34,7 @@ export default function DrinkCategory() {
         } else if(pageCategory === "halloween") {
 
             for (let i = 0; i < drinkList.length; i++) {
-                if(! drinkNames.includes(drinkList[i].drinkName) && drinkList[i].holidayID === 1) {
+                if(! drinkNames.includes(drinkList[i].drinkName) && drinkList[i].holidayID === 1  && checkStock(drinkList[i].drinkName)) {
                     drinkNames.push(drinkList[i].drinkName)
                 }
                 setCategory("Halloween")
@@ -40,7 +45,7 @@ export default function DrinkCategory() {
                 let liquors = SetLiquorTypes([drinkList[i]])
 
                 liquors.forEach(item => {
-                    if((! drinkNames.includes(drinkList[i].drinkName) && item.toLowerCase().split(' ').join('-') === pageCategory)) {
+                    if((! drinkNames.includes(drinkList[i].drinkName) && item.toLowerCase().split(' ').join('-') === pageCategory  && checkStock(drinkList[i].drinkName))) {
                         drinkNames.push(drinkList[i].drinkName)
                     }
                 });

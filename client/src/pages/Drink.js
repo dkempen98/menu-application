@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import IngredientList from "../components/IngredientList";
-import drinkList from "../data/RecipeSample.json"
+import drinkList from "../data/Recipe.json"
 
 export default function Drink() {
     const [drink, setDrink] = useState()
