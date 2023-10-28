@@ -112,7 +112,7 @@
     "description": "Possibly the drink of choice Bobby \"Boris\" Pickett, this drink combines vodka with lime juice and grapes to create a sweet and sour delight.",
     "ingredient": "Grape",
     "ingredientAmount": 5.0,
-    "unitOfMeasure": "",
+    "unitOfMeasure": "muddled",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -155,9 +155,9 @@
   {
     "drinkName": "Negroni",
     "description": "A bitter cocktail with hints of fruity sweetness from the sweet vermouth and orange twist to balance out the drink.",
-    "ingredient": "Orange Slice",
+    "ingredient": "Orange",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "unitOfMeasure": "slice",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 2}"
   },
@@ -363,8 +363,8 @@
     "drinkName": "Pumpkin Spice White Russian",
     "description": "The Dude is confused maaan",
     "ingredient": "Whipped Cream",
-    "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "ingredientAmount": "",
+    "unitOfMeasure": "topped",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 5}"
   },
@@ -398,9 +398,9 @@
   {
     "drinkName": "Apple Cider Mimosa",
     "description": "A more season appropriate version of the orange version, this drink substitutes apple cider and is a great tasting choice for any occasion.",
-    "ingredient": "Apple Slice",
+    "ingredient": "Apple",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "unitOfMeasure": "slice",
     "holidayID": 1,
     "liquorTypes": "{\"liquor_id\": 9}"
   },
@@ -479,9 +479,9 @@
   {
     "drinkName": "Gin and Tonic",
     "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
-    "ingredient": "Lime Wedge",
+    "ingredient": "Lime",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "unitOfMeasure": "wedge",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 2}"
   },
@@ -722,9 +722,9 @@
   {
     "drinkName": "Old Fashioned",
     "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
-    "ingredient": "Orange Slice",
+    "ingredient": "Orange",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "unitOfMeasure": "slice",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
@@ -785,9 +785,9 @@
   {
     "drinkName": "Whiskey Sour",
     "description": "The whiskey sour, as the name implies, is a sour drink that often satisfies even those that do not typically prefer whiskey.",
-    "ingredient": "Orange Slice",
+    "ingredient": "Orange",
     "ingredientAmount": 1.0,
-    "unitOfMeasure": "",
+    "unitOfMeasure": "slice",
     "holidayID": null,
     "liquorTypes": "{\"liquor_id\": 6}"
   },
