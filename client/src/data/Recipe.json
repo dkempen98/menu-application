@@ -657,42 +657,6 @@
     "liquorTypes": "{\"liquor_id\": 5}"
   },
   {
-    "drinkName": "Black Widow",
-    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
-    "ingredient": "Simple Syrup",
-    "ingredientAmount": 1.0,
-    "unitOfMeasure": "fl oz",
-    "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
-  },
-  {
-    "drinkName": "Black Widow",
-    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
-    "ingredient": "Blackberry Juice",
-    "ingredientAmount": 4.0,
-    "unitOfMeasure": "fl oz",
-    "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
-  },
-  {
-    "drinkName": "Black Widow",
-    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
-    "ingredient": "Vodka",
-    "ingredientAmount": 2.0,
-    "unitOfMeasure": "fl oz",
-    "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
-  },
-  {
-    "drinkName": "Black Widow",
-    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
-    "ingredient": "Blackberry",
-    "ingredientAmount": 2.0,
-    "unitOfMeasure": "",
-    "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
-  },
-  {
     "drinkName": "Manhattan",
     "description": "Typically served with Rye whiskey, this American classic originated in New York City in the 1880's and has stood the test of time.",
     "ingredient": "Rye Whiskey",
