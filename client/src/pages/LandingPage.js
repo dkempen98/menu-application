@@ -14,11 +14,15 @@ export default function LandingPage() {
                     </div>
                 </Link>
                 <div className="minor-landing-items">
-                    <Link to={"/drinks/tequila/witches-brew"} className='witches-brew-landing'>
-                        <div>Witches Brew</div>
+                    <Link to={"/drinks/vodka/pumpkin-spice-white-russian"} className='pumpkin-spice-white-russian-featured'>
+                        <div className="category-items">
+                            <div>Pumpkin Spice White Russian</div>
+                        </div>
                     </Link>
-                    <Link to={"/drinks/rum/poison-apple"} className='poison-apple-landing'>
-                        <div>Poison Apple</div>
+                    <Link to={"/drinks/vodka/zombie-smash"} className='zombie-smash-featured'>
+                        <div className="category-items">
+                            <div>Zombie Smash</div>
+                        </div>
                     </Link>
                 </div>
             </section>

@@ -1,5 +1,5 @@
 :root {
-  --bg: rgb(116, 10, 126);
+  --bg: #740a7e;
   /* --bg: rgb(102, 15, 110); */
   --primary-color: rgb(0, 0, 0);
   --secondary-color: #ff7300;
@@ -199,7 +199,7 @@ footer {
   border-left: solid var(--secondary-color) 2px;
 }
 
-.minor-landing-items a div {
+/* .minor-landing-items a div {
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -217,7 +217,7 @@ footer {
   padding-top: 3px;
   padding-bottom: 3px;
 
-}
+} */
 
 .landing-button {
   /* height: 20%;
@@ -237,13 +237,22 @@ footer {
   justify-content: center;
 }
 
-.witches-brew-landing {
+.poison-apple-featured {
+  background-image: url(./images/poison-apple.jpg);
+}
+
+.pumpkin-spice-white-russian-featured {
+  background-image: url(./images/pumpkin-spice-white-russian.jpg);
+}
+
+.witches-brew-featured {
   background-image: url(./images/witches-brew.jpg);
 }
 
-.poison-apple-landing {
-  background-image: url(./images/poison-apple.jpg);
+.zombie-smash-featured {
+  background-image: url(./images/zombie-smash.jpg);
 }
+
 
 /* Error Page */
 
