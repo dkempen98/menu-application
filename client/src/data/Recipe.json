@@ -693,6 +693,42 @@
     "liquorTypes": "{\"liquor_id\": 6}"
   },
   {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Simple Syrup",
+    "ingredientAmount": 1.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Blackberry Juice",
+    "ingredientAmount": 4.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Vodka",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "fl oz",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
+    "drinkName": "Black Widow",
+    "description": "Here is wickedly delicious black widow cocktail made with fresh blackberries , vodka and simple syrup. ",
+    "ingredient": "Blackberry",
+    "ingredientAmount": 2.0,
+    "unitOfMeasure": "",
+    "holidayID": 1,
+    "liquorTypes": "{\"liquor_id\": 5}"
+  },
+  {
     "drinkName": "Old Fashioned",
     "description": "An Old Fashioned is a true classic cocktail. Made with whiskey, sugar, Angostura bitters, and an orange peel (or cherry) for garnish, it's a recipe made for whiskey lovers.",
     "ingredient": "Sugar Cube",
