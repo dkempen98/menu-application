@@ -52,11 +52,11 @@ export default function Drink() {
 
     function orderDrink() {
         console.log(drink);
-        axios.post('http://localhost:8000/api/orders', {
-            drink_name: drink,
-            quantity: 1,
-            name: customer,
-        })
+        // axios.post('http://localhost:8000/api/orders', {
+        //     drink_name: drink,
+        //     quantity: 1,
+        //     name: customer,
+        // })
     }
 
     return(
