@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import IngredientList from "../components/IngredientList";
 import drinkList from "../data/Recipe.json"
+import axios from "axios";
 
 export default function Drink() {
     const [drink, setDrink] = useState()
     const [description, setDescription] = useState()
     const [ingredients, setIngredients] = useState()
     const [amounts, setAmounts] = useState()
+    const [customer, setCustomer] = useState()
 
     useEffect(() => {
         init()
@@ -44,6 +46,19 @@ export default function Drink() {
 
     }
 
+    function handleCustomerChange(e) {
+        setCustomer(e.target.value);
+    }
+
+    function orderDrink() {
+        console.log(drink);
+        axios.post('http://localhost:8000/api/orders', {
+            drink_name: drink,
+            quantity: 1,
+            name: customer,
+        })
+    }
+
     return(
         <section>
             <article className="drink-image-container">
@@ -61,6 +76,11 @@ export default function Drink() {
                 amounts={amounts}
                 />
             </article>
+            <input type="text" placeholder="Name" onChange={handleCustomerChange} value={customer}>
+            </input>
+            <button onClick={() => orderDrink()}>
+                Order
+            </button>
         </section>
     )
 }
