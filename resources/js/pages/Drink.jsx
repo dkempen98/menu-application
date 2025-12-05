@@ -23,6 +23,7 @@ export default function Drink(
     }, [])
 
     useEffect(() => {
+        if(orderers.length === 0) return;
         setLocalOrderers(orderers.map(o => ({ ...o, completed: true })));
     }, [orderers]);
 
