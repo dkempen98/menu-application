@@ -1,12 +1,12 @@
 import axios from "axios";
 import {useEffect, useState} from "react";
+import Drink from "./Drink.jsx";
 
 export default function Bartender() {
     const [orders, setOrders] = useState([])
 
     async function getOrders() {
         let orderFetch = await axios.get('/api/orders')
-        console.log(orderFetch?.data?.orders);
         setOrders(orderFetch.data.orders);
     }
     useEffect(() => {
@@ -18,12 +18,12 @@ export default function Bartender() {
         <div>
             {orders.map((order) => {
                 return (
-                    <div className="order-item">
-                        <div className="order-item-header">
-                            <div className="order-item-drink">{order.orderable_name}</div> for
-                            <div className="order-item-name">{order.name}</div>
-                            --
-                        </div>
+                    <div className="order-item" key={order.orderable_name + "-bartender-view"}>
+                        <Drink
+                            bartenderMode={true}
+                            passedDrink={order.orderable_name.toLowerCase().split(' ').join('-')}
+                            orderers={order.people}
+                        />
                     </div>
                 )
             })}

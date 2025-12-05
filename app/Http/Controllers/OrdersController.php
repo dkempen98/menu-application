@@ -13,7 +13,17 @@ class OrdersController extends Controller
      */
     public function index()
     {
-        $orders = orders::where('completed', false)->get();
+        $people = orders::where('completed', false)->get();
+        $orders = orders::where('completed', false)
+            ->select('orderable_name')
+            ->groupBy('orderable_name')
+            ->get();
+        $orders->each(function ($order) use ($people) {
+           $peopleArray = $people->where('orderable_name', '=', $order->orderable_name);
+           $order->people = $peopleArray->values();
+//           $order->people = $peopleArray;
+        });
+
         return response()->json(compact('orders'));
     }
 

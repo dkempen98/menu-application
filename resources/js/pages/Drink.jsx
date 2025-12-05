@@ -3,7 +3,13 @@ import IngredientList from "../components/IngredientList.jsx";
 import drinkList from "../data/Recipe.json"
 import axios from "axios";
 
-export default function Drink() {
+export default function Drink(
+    {
+        bartenderMode = false,
+        passedDrink = null,
+        orderers = [],
+    })
+{
     const [drink, setDrink] = useState('')
     const [description, setDescription] = useState('')
     const [ingredients, setIngredients] = useState([])
@@ -15,8 +21,9 @@ export default function Drink() {
     }, [])
 
     function init() {
-        let drinkTemp = window.location.pathname.split('/').pop()
-        let drinkPath = window.location.pathname.split('/').pop()
+        let drinkName = passedDrink ?? window.location.pathname.split('/').pop()
+        let drinkTemp = drinkName;
+        let drinkPath = drinkName;
         let descTemp = ""
         let ingredTemp = []
         let amountsTemp = []
@@ -31,7 +38,7 @@ export default function Drink() {
             }
         });
 
-        if(drinkTemp === window.location.pathname.split('/').pop()) {
+        if(drinkTemp === drinkName) {
             window.location.href = "/error"
         }
 
@@ -39,6 +46,16 @@ export default function Drink() {
         setDescription(descTemp)
         setIngredients(ingredTemp)
         setAmounts(amountsTemp)
+    }
+
+    function displayTime(timeString) {
+        let displayDate = new Date(timeString)
+        let today = new Date();
+        let display = displayDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        if(displayDate.getDate() !== today.getDate()) {
+            display += " - " + displayDate.toLocaleDateString();
+        }
+        return display;
     }
 
     function replaceImg() {
@@ -65,7 +82,9 @@ export default function Drink() {
             <h1 className="page-header">
                 {drink}
             </h1>
-                <img className='drink-image' id="drinkImg" src={"/images/" + window.location.pathname.split('/').pop() + ".jpg"} onError={() => replaceImg()}/>
+                {!bartenderMode && (
+                    <img className='drink-image' id="drinkImg" src={"/images/" + (passedDrink ?? window.location.pathname.split('/').pop()) + ".jpg"} onError={() => replaceImg()}/>
+                )}
                 <span className="gradient-bottom-border-l"/>
                 <p className="drink-desc">
                     {description}
@@ -76,23 +95,34 @@ export default function Drink() {
                 amounts={amounts}
                 />
                 <span className="gradient-bottom-border-l"/>
-                <div className="order-container">
-                    <input
-                        type="text"
-                        placeholder="Add a Name To Order"
-                        name="name"
-                        className="order-input"
-                        onChange={handleCustomerChange}
-                        value={customer}
-                    />
-                    <button
-                        disabled={!customer}
-                        className={"order-button" + (customer ? "" : " disabled")}
-                        onClick={() => orderDrink()}
-                    >
-                        Order
-                    </button>
-                </div>
+                {!bartenderMode && (
+                    <div className="order-container">
+                        <input
+                            type="text"
+                            placeholder="Add a Name To Order"
+                            name="name"
+                            className="order-input"
+                            onChange={handleCustomerChange}
+                            value={customer}
+                        />
+                        <button
+                            disabled={!customer}
+                            className={"order-button" + (customer ? "" : " disabled")}
+                            onClick={() => orderDrink()}
+                        >
+                            Order
+                        </button>
+                    </div>
+                )}
+                {orderers.length > 0 && (
+                    <div className="orderer-container">
+                        {orderers.map((orderer) => {
+                            return (
+                                <div>{orderer.name} @ {displayTime(orderer.created_at)}</div>
+                            )
+                        })}
+                    </div>
+                )}
             </article>
         </section>
     )
