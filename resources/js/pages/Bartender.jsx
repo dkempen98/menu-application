@@ -23,6 +23,7 @@ export default function Bartender() {
                             bartenderMode={true}
                             passedDrink={order.orderable_name.toLowerCase().split(' ').join('-')}
                             orderers={order.people}
+                            refreshFunction={getOrders}
                         />
                     </div>
                 )

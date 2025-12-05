@@ -8,6 +8,7 @@ export default function Drink(
         bartenderMode = false,
         passedDrink = null,
         orderers = [],
+        refreshFunction = ()=> {},
     })
 {
     const [drink, setDrink] = useState('')
@@ -15,10 +16,16 @@ export default function Drink(
     const [ingredients, setIngredients] = useState([])
     const [amounts, setAmounts] = useState([])
     const [customer, setCustomer] = useState('')
+    const [localOrderers, setLocalOrderers] = useState([])
 
     useEffect(() => {
         init()
     }, [])
+
+    useEffect(() => {
+        setLocalOrderers(orderers.map(o => ({ ...o, completed: true })));
+    }, [orderers]);
+
 
     function init() {
         let drinkName = passedDrink ?? window.location.pathname.split('/').pop()
@@ -47,6 +54,26 @@ export default function Drink(
         setIngredients(ingredTemp)
         setAmounts(amountsTemp)
     }
+
+    function toggleOrdererComplete(id) {
+        setLocalOrderers(prev =>
+            prev.map(orderer =>
+                orderer.id === id
+                    ? { ...orderer, completed: !orderer.completed }
+                    : orderer
+            )
+        );
+    }
+
+    async function completeOrder() {
+        let completedOrderers = localOrderers.filter(orderer => orderer.completed)
+        let orderIds = completedOrderers.map(orderer => orderer.id)
+        await axios.put("/api/complete-orders", {
+            orderIds: orderIds
+        })
+        await refreshFunction();
+    }
+
 
     function displayTime(timeString) {
         let displayDate = new Date(timeString)
@@ -114,13 +141,33 @@ export default function Drink(
                         </button>
                     </div>
                 )}
-                {orderers.length > 0 && (
-                    <div className="orderer-container">
-                        {orderers.map((orderer) => {
-                            return (
-                                <div>{orderer.name} @ {displayTime(orderer.created_at)}</div>
-                            )
-                        })}
+                {localOrderers.length > 0 && bartenderMode && (
+                    <div>
+                        <div className="orderer-container">
+                            {localOrderers.map((orderer) => {
+                                return (
+                                    <div key={orderer.id} onClick={() => toggleOrdererComplete(orderer.id)} className="orderer-item">
+                                        <input
+                                            name="orderer"
+                                            type="checkbox"
+                                            checked={orderer.completed}
+                                            onClick={(e) => e.stopPropagation()}
+                                            readOnly
+                                        />
+                                        <span>
+                                            {orderer.name} @ {displayTime(orderer.created_at)}
+                                        </span>
+                                    </div>
+
+                                )
+                            })}
+                        </div>
+                        <button
+                            className="order-submit-button"
+                            onClick={() => completeOrder()}
+                        >
+                            Complete Order
+                        </button>
                     </div>
                 )}
             </article>

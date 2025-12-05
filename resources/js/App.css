@@ -548,3 +548,26 @@ footer {
 .order-button:disabled {
   color: var(--secondary-color-transparent);
 }
+
+.orderer-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 0.5rem;
+}
+
+.orderer-item {
+
+}
+
+.order-submit-button {
+  width: 100%;
+  background-color: var(--secondary-color);
+  border: none;
+  border-top: 2px solid var(--primary-color);
+  height: 2rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.25em;
+  border-radius: 0 0 10px 10px;
+}

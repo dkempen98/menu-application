@@ -82,6 +82,19 @@ class OrdersController extends Controller
         //
     }
 
+    public function completeOrders(Request $request)
+    {
+        $request->validate([
+           'orderIds' => 'required|array'
+        ]);
+
+        Orders::where('completed', false)
+            ->whereIn('id', $request->input('orderIds'))
+            ->update(['completed' => true]);
+
+        return response()->json(['message' => 'Orders completed successfully']);
+    }
+
     /**
      * Remove the specified resource from storage.
      */
