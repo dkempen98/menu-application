@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Drink;
-use App\Models\orders;
+use App\Models\Orders;
 use Illuminate\Http\Request;
 
 class OrdersController extends Controller
@@ -13,8 +13,8 @@ class OrdersController extends Controller
      */
     public function index()
     {
-        $people = orders::where('completed', false)->get();
-        $orders = orders::where('completed', false)
+        $people = Orders::where('completed', false)->get();
+        $orders = Orders::where('completed', false)
             ->select('orderable_name')
             ->groupBy('orderable_name')
             ->get();
@@ -61,7 +61,7 @@ class OrdersController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(orders $orders)
+    public function show(Orders $orders)
     {
         //
     }
@@ -69,7 +69,7 @@ class OrdersController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(orders $orders)
+    public function edit(Orders $orders)
     {
         //
     }
@@ -77,7 +77,7 @@ class OrdersController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, orders $orders)
+    public function update(Request $request, Orders $orders)
     {
         //
     }
@@ -98,7 +98,7 @@ class OrdersController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(orders $orders)
+    public function destroy(Orders $orders)
     {
         //
     }
