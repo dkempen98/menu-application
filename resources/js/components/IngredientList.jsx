@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-export default function IngredientList({ingredients, amounts}) {
+export default function IngredientList({ingredients, amounts, bartenderMode = false, batch = 1}) {
     if(! ingredients) {
         return <div></div>
     }
@@ -17,6 +17,11 @@ export default function IngredientList({ingredients, amounts}) {
     return(
         <div className="ingredient-list">
             <h3>Ingredients</h3>
+            {bartenderMode && (
+                <h4>
+                    Makes {batch}
+                </h4>
+            )}
             {list}
         </div>
     )

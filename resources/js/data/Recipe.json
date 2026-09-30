@@ -6,7 +6,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Sunrise",
@@ -15,7 +16,8 @@
     "ingredientAmount": 6.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Sunrise",
@@ -24,7 +26,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Sunrise",
@@ -33,7 +36,8 @@
     "ingredientAmount": 2.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Witches Brew",
@@ -42,7 +46,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Witches Brew",
@@ -51,7 +56,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Witches Brew",
@@ -60,7 +66,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Witches Brew",
@@ -69,7 +76,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Monster Smash",
@@ -78,7 +86,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Monster Smash",
@@ -87,7 +96,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Monster Smash",
@@ -96,7 +106,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Monster Smash",
@@ -105,7 +116,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Monster Smash",
@@ -114,7 +126,8 @@
     "ingredientAmount": 5.0,
     "unitOfMeasure": "muddled",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Negroni",
@@ -123,7 +136,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Negroni",
@@ -132,7 +146,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Negroni",
@@ -141,7 +156,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Negroni",
@@ -150,7 +166,8 @@
     "ingredientAmount": 2.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Negroni",
@@ -159,7 +176,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "slice",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Martini",
@@ -168,7 +186,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Martini",
@@ -177,7 +196,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Martini",
@@ -186,7 +206,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -195,7 +216,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -204,7 +226,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -213,7 +236,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -222,7 +246,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -231,7 +256,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -240,7 +266,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Zombie Smash",
@@ -249,7 +276,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}"
+    "liquorTypes": "{\"liquor_id\": [2, 3, 5]}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Poison Apple",
@@ -258,7 +286,8 @@
     "ingredientAmount": 4.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 3}"
+    "liquorTypes": "{\"liquor_id\": 3}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Poison Apple",
@@ -267,7 +296,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 3}"
+    "liquorTypes": "{\"liquor_id\": 3}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Poison Apple",
@@ -276,7 +306,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 3}"
+    "liquorTypes": "{\"liquor_id\": 3}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Poison Apple",
@@ -285,7 +316,8 @@
     "ingredientAmount": 0.75,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 3}"
+    "liquorTypes": "{\"liquor_id\": 3}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Vampire's Kiss",
@@ -294,7 +326,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Vampire's Kiss",
@@ -303,7 +336,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Vampire's Kiss",
@@ -312,7 +346,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Vampire's Kiss",
@@ -321,7 +356,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Vampire's Kiss",
@@ -330,7 +366,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Spice White Russian",
@@ -339,7 +376,8 @@
     "ingredientAmount": 3.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Spice White Russian",
@@ -348,7 +386,8 @@
     "ingredientAmount": 3.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Spice White Russian",
@@ -357,7 +396,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Spice White Russian",
@@ -366,7 +406,8 @@
     "ingredientAmount": "",
     "unitOfMeasure": "topped",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Poison Apple",
@@ -375,7 +416,8 @@
     "ingredientAmount": 0.25,
     "unitOfMeasure": "tsp",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 3}"
+    "liquorTypes": "{\"liquor_id\": 3}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Apple Cider Mimosa",
@@ -384,7 +426,8 @@
     "ingredientAmount": 3.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 9}"
+    "liquorTypes": "{\"liquor_id\": 9}",
+    "multiply_ingredients": false
   },
   {
     "drinkName": "Apple Cider Mimosa",
@@ -393,7 +436,8 @@
     "ingredientAmount": 3.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 9}"
+    "liquorTypes": "{\"liquor_id\": 9}",
+    "multiply_ingredients": false
   },
   {
     "drinkName": "Apple Cider Mimosa",
@@ -402,7 +446,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "slice",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 9}"
+    "liquorTypes": "{\"liquor_id\": 9}",
+    "multiply_ingredients": false
   },
   {
     "drinkName": "Pumpkin Martini",
@@ -411,7 +456,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Martini",
@@ -420,7 +466,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Martini",
@@ -429,7 +476,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Martini",
@@ -438,7 +486,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "Tbsp",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Martini",
@@ -447,7 +496,8 @@
     "ingredientAmount": 0.25,
     "unitOfMeasure": "tsp",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Pumpkin Martini",
@@ -456,7 +506,8 @@
     "ingredientAmount": 0.25,
     "unitOfMeasure": "tsp",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Gin and Tonic",
@@ -465,7 +516,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Gin and Tonic",
@@ -474,7 +526,8 @@
     "ingredientAmount": 4.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Gin and Tonic",
@@ -483,7 +536,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "wedge",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 2}"
+    "liquorTypes": "{\"liquor_id\": 2}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Fizz",
@@ -492,7 +546,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Fizz",
@@ -501,7 +556,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Fizz",
@@ -510,7 +566,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "tsp",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Tequila Fizz",
@@ -519,7 +576,8 @@
     "ingredientAmount": 2.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Multiple Orgasm",
@@ -528,7 +586,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Multiple Orgasm",
@@ -537,7 +596,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Multiple Orgasm",
@@ -546,7 +606,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Multiple Orgasm",
@@ -555,7 +616,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Multiple Orgasm",
@@ -564,7 +626,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 4}"
+    "liquorTypes": "{\"liquor_id\": 4}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Lemon Drop",
@@ -573,7 +636,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Lemon Drop",
@@ -582,7 +646,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Lemon Drop",
@@ -591,7 +656,8 @@
     "ingredientAmount": 1.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Lemon Drop",
@@ -600,7 +666,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Lemon Drop",
@@ -609,7 +676,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Mudslide",
@@ -618,7 +686,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Mudslide",
@@ -627,7 +696,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Mudslide",
@@ -636,7 +706,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Mudslide",
@@ -645,7 +716,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Mudslide",
@@ -654,7 +726,8 @@
     "ingredientAmount": "",
     "unitOfMeasure": "Garnish",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Manhattan",
@@ -663,7 +736,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Manhattan",
@@ -672,7 +746,8 @@
     "ingredientAmount": 0.75,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Manhattan",
@@ -681,7 +756,8 @@
     "ingredientAmount": 3.0,
     "unitOfMeasure": "Dash",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Manhattan",
@@ -690,7 +766,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Black Widow",
@@ -699,7 +776,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Black Widow",
@@ -708,7 +786,8 @@
     "ingredientAmount": 4.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Black Widow",
@@ -717,7 +796,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Black Widow",
@@ -726,7 +806,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "",
     "holidayID": 1,
-    "liquorTypes": "{\"liquor_id\": 5}"
+    "liquorTypes": "{\"liquor_id\": 5}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Old Fashioned",
@@ -735,7 +816,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Old Fashioned",
@@ -744,7 +826,8 @@
     "ingredientAmount": 3.0,
     "unitOfMeasure": "Dash",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Old Fashioned",
@@ -753,7 +836,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Old Fashioned",
@@ -762,7 +846,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "slice",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Old Fashioned",
@@ -771,7 +856,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Old Fashioned",
@@ -780,7 +866,8 @@
     "ingredientAmount": 2.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -789,7 +876,8 @@
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -798,7 +886,8 @@
     "ingredientAmount": 0.75,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -807,7 +896,8 @@
     "ingredientAmount": 0.5,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -816,7 +906,8 @@
     "ingredientAmount": 0.75,
     "unitOfMeasure": "fl oz",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -825,7 +916,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "slice",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -834,7 +926,8 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   },
   {
     "drinkName": "Whiskey Sour",
@@ -843,6 +936,7 @@
     "ingredientAmount": 1.0,
     "unitOfMeasure": "Dash",
     "holidayID": null,
-    "liquorTypes": "{\"liquor_id\": 6}"
+    "liquorTypes": "{\"liquor_id\": 6}",
+    "multiply_ingredients": true
   }
 ]

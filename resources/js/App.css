@@ -53,6 +53,10 @@ input {
 
 /* Reused elements */
 
+.clickable:hover {
+  cursor: pointer;
+}
+
 .page-header {
   margin: 1rem auto 1rem auto;
   color: var(--secondary-color);

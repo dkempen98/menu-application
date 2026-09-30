@@ -17,6 +17,7 @@ export default function Drink(
     const [amounts, setAmounts] = useState([])
     const [customer, setCustomer] = useState('')
     const [localOrderers, setLocalOrderers] = useState([])
+    const [batchMode, setBatchMode] = useState(false);
 
     useEffect(() => {
         init()
@@ -27,6 +28,10 @@ export default function Drink(
         setLocalOrderers(orderers.map(o => ({ ...o, completed: true })));
     }, [orderers]);
 
+    useEffect(() => {
+        init()
+    }, [localOrderers]);
+
 
     function init() {
         let drinkName = passedDrink ?? window.location.pathname.split('/').pop()
@@ -35,14 +40,22 @@ export default function Drink(
         let descTemp = ""
         let ingredTemp = []
         let amountsTemp = []
-        drinkList.forEach(item => {
+        let amountMultiplier = 1;
+            drinkList.forEach(item => {
             let curDrink = item.drinkName
             curDrink = curDrink.toLowerCase().split(' ').join('-')
             if(curDrink === drinkPath) {
+                if(batchMode !== item.multiply_ingredients) {
+                    setBatchMode(!!item.multiply_ingredients);
+                }
+                if(bartenderMode && item.multiply_ingredients) {
+                    amountMultiplier = localOrderers?.filter(orderer => orderer?.completed).length;
+                    amountMultiplier = amountMultiplier > 0 ? amountMultiplier : 1;
+                }
                 drinkTemp = item.drinkName
                 descTemp = item.description
                 ingredTemp.push(item.ingredient)
-                amountsTemp.push(item.ingredientAmount + " " + item.unitOfMeasure)
+                amountsTemp.push((item.ingredientAmount * amountMultiplier) + " " + item.unitOfMeasure)
             }
         });
 
@@ -64,6 +77,7 @@ export default function Drink(
                     : orderer
             )
         );
+        init();
     }
 
     async function completeOrder() {
@@ -119,8 +133,10 @@ export default function Drink(
                 </p>
                 <span className="gradient-bottom-border-r"/>
                 <IngredientList
-                ingredients={ingredients}
-                amounts={amounts}
+                    ingredients={ingredients}
+                    amounts={amounts}
+                    bartenderMode={bartenderMode}
+                    batch={ (bartenderMode && batchMode && localOrderers.length > 1 && localOrderers?.filter(orderer => orderer?.completed).length > 1) ? localOrderers?.filter(orderer => orderer?.completed).length : 1 }
                 />
                 <span className="gradient-bottom-border-l"/>
                 {!bartenderMode && (
@@ -147,18 +163,18 @@ export default function Drink(
                         <div className="orderer-container">
                             {localOrderers.map((orderer) => {
                                 return (
-                                    <div key={orderer.id} onClick={() => toggleOrdererComplete(orderer.id)} className="orderer-item">
+                                    <label key={orderer.id} className="orderer-item clickable">
                                         <input
                                             name="orderer"
                                             type="checkbox"
                                             checked={orderer.completed}
-                                            onClick={(e) => e.stopPropagation()}
-                                            readOnly
+                                            onChange={() => toggleOrdererComplete(orderer.id)}
+                                            className="clickable"
                                         />
                                         <span>
                                             {orderer.name} @ {displayTime(orderer.created_at)}
                                         </span>
-                                    </div>
+                                    </label>
 
                                 )
                             })}
