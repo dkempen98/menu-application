@@ -11,13 +11,16 @@ export default function Drink(
         refreshFunction = ()=> {},
     })
 {
+    const [firstInit, setFirstInit] = useState(true);
     const [drink, setDrink] = useState('')
     const [description, setDescription] = useState('')
     const [ingredients, setIngredients] = useState([])
     const [amounts, setAmounts] = useState([])
-    const [customer, setCustomer] = useState('')
+    const [customer, setCustomer] = useState(localStorage.getItem("name"))
     const [localOrderers, setLocalOrderers] = useState([])
     const [batchMode, setBatchMode] = useState(false);
+    const [ordered, setOrdered] = useState(false);
+    const [flOzs, setFlOzs] = useState(0);
 
     useEffect(() => {
         init()
@@ -30,7 +33,7 @@ export default function Drink(
 
     useEffect(() => {
         init()
-    }, [localOrderers]);
+    }, [localOrderers, batchMode]);
 
 
     function init() {
@@ -41,16 +44,23 @@ export default function Drink(
         let ingredTemp = []
         let amountsTemp = []
         let amountMultiplier = 1;
-            drinkList.forEach(item => {
+        let useMultiplyDrinks = batchMode;
+        let flOzTotal = 0;
+        drinkList.forEach(item => {
             let curDrink = item.drinkName
             curDrink = curDrink.toLowerCase().split(' ').join('-')
             if(curDrink === drinkPath) {
-                if(batchMode !== item.multiply_ingredients) {
+                if(firstInit) {
+                    useMultiplyDrinks = item.multiply_ingredients;
                     setBatchMode(!!item.multiply_ingredients);
+                    setFirstInit(false);
                 }
-                if(bartenderMode && item.multiply_ingredients) {
+                if(bartenderMode && useMultiplyDrinks) {
                     amountMultiplier = localOrderers?.filter(orderer => orderer?.completed).length;
                     amountMultiplier = amountMultiplier > 0 ? amountMultiplier : 1;
+                }
+                if(item.unitOfMeasure === "fl oz") {
+                    flOzTotal += item.ingredientAmount * amountMultiplier;
                 }
                 drinkTemp = item.drinkName
                 descTemp = item.description
@@ -67,6 +77,7 @@ export default function Drink(
         setDescription(descTemp)
         setIngredients(ingredTemp)
         setAmounts(amountsTemp)
+        setFlOzs(flOzTotal)
     }
 
     function toggleOrdererComplete(id) {
@@ -110,12 +121,17 @@ export default function Drink(
     }
 
     function orderDrink() {
+        let storedName = localStorage.getItem("name")
+        if(storedName !== customer) {
+            localStorage.setItem("name", customer);
+        }
         axios.post('/api/orders', {
             drink_name: drink,
             quantity: 1,
             name: customer,
         })
         setCustomer('');
+        setOrdered(true);
     }
 
     return(
@@ -124,6 +140,14 @@ export default function Drink(
             <h1 className="page-header">
                 {drink}
             </h1>
+                {bartenderMode && localOrderers?.length > 1 && (
+                    <button
+                        onClick={() => setBatchMode(!batchMode)}
+                        className="toggle-button"
+                    >
+                        {batchMode ? "Unbatch" : "Batch"}
+                    </button>
+                )}
                 {!bartenderMode && (
                     <img className='drink-image' id="drinkImg" src={"/images/" + (passedDrink ?? window.location.pathname.split('/').pop()) + ".jpg"} onError={() => replaceImg()}/>
                 )}
@@ -137,13 +161,14 @@ export default function Drink(
                     amounts={amounts}
                     bartenderMode={bartenderMode}
                     batch={ (bartenderMode && batchMode && localOrderers.length > 1 && localOrderers?.filter(orderer => orderer?.completed).length > 1) ? localOrderers?.filter(orderer => orderer?.completed).length : 1 }
+                    flOzs={flOzs}
                 />
                 <span className="gradient-bottom-border-l"/>
                 {!bartenderMode && (
                     <div className="order-container">
                         <input
                             type="text"
-                            placeholder="Add a Name To Order"
+                            placeholder={ordered ? 'Your order has been placed!' : 'Add a Name for the Order'}
                             name="name"
                             className="order-input"
                             onChange={handleCustomerChange}
@@ -175,7 +200,6 @@ export default function Drink(
                                             {orderer.name} @ {displayTime(orderer.created_at)}
                                         </span>
                                     </label>
-
                                 )
                             })}
                         </div>

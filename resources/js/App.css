@@ -575,3 +575,15 @@ footer {
   font-size: 1.25em;
   border-radius: 0 0 10px 10px;
 }
+
+.toggle-button {
+  width: 25%;
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  height: 2rem;
+  color: var(--secondary-color);
+  margin: 0 0 5px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  border-image-slice: 1;
+}
