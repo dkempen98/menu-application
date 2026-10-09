@@ -511,7 +511,7 @@
   },
   {
     "drinkName": "Gin and Tonic",
-    "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
+    "description": "The quintessential English summertime libation. Many prefer theirs with a lot of fresh lime.",
     "ingredient": "Gin",
     "ingredientAmount": 2.0,
     "unitOfMeasure": "fl oz",
@@ -521,7 +521,7 @@
   },
   {
     "drinkName": "Gin and Tonic",
-    "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
+    "description": "The quintessential English summertime libation. Many prefer theirs with a lot of fresh lime.",
     "ingredient": "Tonic Water",
     "ingredientAmount": 4.0,
     "unitOfMeasure": "fl oz",
@@ -531,7 +531,7 @@
   },
   {
     "drinkName": "Gin and Tonic",
-    "description": "The quintessential English summertime libation. Many prefer theirs with theirs with a lot of fresh lime.",
+    "description": "The quintessential English summertime libation. Many prefer theirs with a lot of fresh lime.",
     "ingredient": "Lime",
     "ingredientAmount": 1.0,
     "unitOfMeasure": "wedge",
