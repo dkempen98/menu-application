@@ -69,7 +69,7 @@ export default function Drink(
                 flOzTotal += ingredient.amount * amountMultiplier;
             }
             ingredTemp.push(ingredient.ingredient_name)
-            amountsTemp.push((ingredient.amount * amountMultiplier) + " " + (ingredient.unit_name === "Count" ? '' : ingredient.unit_name))
+            amountsTemp.push((ingredient.amount ? ingredient.amount * amountMultiplier : "") + " " + (ingredient.unit_name === "Count" ? '' : ingredient.unit_name))
         })
 
 
@@ -135,7 +135,9 @@ export default function Drink(
 
     function replaceImg() {
         document.getElementById("drinkImg").src = "/images/generic-drink.jpg"
-
+    }
+    function removeImg() {
+        document.getElementById("drinkImg").remove()
     }
 
     function handleCustomerChange(e) {
@@ -172,6 +174,9 @@ export default function Drink(
                 )}
                 {!bartenderMode && (
                     <img className='drink-image' id="drinkImg" src={"/images/" + (passedDrink ?? window.location.pathname.split('/').pop()) + ".jpg"} onError={() => replaceImg()}/>
+                )}
+                {bartenderMode && (
+                    <img className='drink-image' id="drinkImg" src={"/images/" + (passedDrink ?? window.location.pathname.split('/').pop()) + "-instructions.png"} onError={() => removeImg()}/>
                 )}
                 <span className="gradient-bottom-border-l"/>
                 <p className="drink-desc">

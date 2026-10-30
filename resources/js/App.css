@@ -385,6 +385,11 @@ footer {
   background-position: center center;
 }
 
+.mocktails {
+  background-image: url('images/mocktails.jpg');
+  background-position: center center;
+}
+
 /* Drink :category: page */
 
 .category-container {
