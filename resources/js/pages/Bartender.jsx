@@ -11,8 +11,14 @@ export default function Bartender() {
     }
     useEffect(() => {
         getOrders()
-        }, [])
-
+        const intervalId = setInterval(getOrders, 15000)
+        const onVisible = () => { if (!document.hidden) getOrders() }
+        document.addEventListener('visibilitychange', onVisible)
+        return () => {
+            clearInterval(intervalId)
+            document.removeEventListener('visibilitychange', onVisible)
+        }
+    }, [])
 
     return (
         <div>
