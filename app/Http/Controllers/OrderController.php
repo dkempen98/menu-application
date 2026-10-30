@@ -3,18 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Models\Drink;
-use App\Models\Orders;
+use App\Models\Meal;
+use App\Models\Order;
 use Illuminate\Http\Request;
 
-class OrdersController extends Controller
+class OrderController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $people = Orders::where('completed', false)->get();
-        $orders = Orders::where('completed', false)
+        $people = Order::where('completed', false)->get();
+        $orders = Order::where('completed', false)
             ->select('orderable_name')
             ->groupBy('orderable_name')
             ->get();
@@ -41,15 +42,17 @@ class OrdersController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'drink_name' => 'required|string',
+            'orderable_name' => 'required|string',
             'name' => 'required|string',
             'quantity' => 'nullable|integer',
         ]);
 
-        $order = Orders::create([
-            'orderable_type' => Drink::class,
-            'orderable_id' => $request->input('drink_id', 0),
-            'orderable_name' => $request->input('drink_name'),
+        $meal = Meal::where("name", "=", $request->input("orderable_name"))->first();
+
+        $order = Order::create([
+            'orderable_type' => Meal::class,
+            'orderable_id' => $meal->id,
+            'orderable_name' => $request->input('orderable_name'),
             'name' => $request->input('name', 'n/a'),
             'quantity' => $request->input('quantity', 1),
             'completed' => false,
@@ -61,7 +64,7 @@ class OrdersController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Orders $orders)
+    public function show(Order $order)
     {
         //
     }
@@ -69,7 +72,7 @@ class OrdersController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Orders $orders)
+    public function edit(Order $order)
     {
         //
     }
@@ -77,7 +80,7 @@ class OrdersController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Orders $orders)
+    public function update(Request $request, Order $order)
     {
         //
     }
@@ -88,7 +91,7 @@ class OrdersController extends Controller
            'orderIds' => 'required|array'
         ]);
 
-        Orders::where('completed', false)
+        Order::where('completed', false)
             ->whereIn('id', $request->input('orderIds'))
             ->update(['completed' => true]);
 
@@ -98,7 +101,7 @@ class OrdersController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Orders $orders)
+    public function destroy(Order $order)
     {
         //
     }

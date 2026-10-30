@@ -3,6 +3,7 @@ import ListItems from "../components/ListItems";
 import drinkList from "../data/Recipe.json"
 import SetLiquorTypes from "../components/SetLiquorTypes";
 import { useStateContext } from "../StateContext.jsx";
+import axios from "axios";
 
 export default function Drinks() {
 
@@ -24,14 +25,15 @@ export default function Drinks() {
 
     // Find categories with at least one drink with the necessary ingredients in stock, if already in list skip evaluation
 
-    function init() {
-        let cats
+    async function init() {
+        // if(overrideStockCheck) {
+        //     cats = SetLiquorTypes(drinkList)
+        // } else {
+        //     cats = SetLiquorTypes(inStock)
+        // }
 
-        if(overrideStockCheck) {
-            cats = SetLiquorTypes(drinkList)
-        } else {
-            cats = SetLiquorTypes(inStock)
-        }
+        const catsData = await axios.get('/api/drinks')
+        let cats = catsData.data.types;
 
         cats.unshift("All")
 

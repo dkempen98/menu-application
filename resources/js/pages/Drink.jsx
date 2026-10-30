@@ -36,7 +36,7 @@ export default function Drink(
     }, [localOrderers, batchMode]);
 
 
-    function init() {
+    async function init() {
         let drinkName = passedDrink ?? window.location.pathname.split('/').pop()
         let drinkTemp = drinkName;
         let drinkPath = drinkName;
@@ -46,28 +46,50 @@ export default function Drink(
         let amountMultiplier = 1;
         let useMultiplyDrinks = batchMode;
         let flOzTotal = 0;
-        drinkList.forEach(item => {
-            let curDrink = item.drinkName
-            curDrink = curDrink.toLowerCase().split(' ').join('-')
-            if(curDrink === drinkPath) {
-                if(firstInit) {
-                    useMultiplyDrinks = item.multiply_ingredients;
-                    setBatchMode(!!item.multiply_ingredients);
-                    setFirstInit(false);
-                }
-                if(bartenderMode && useMultiplyDrinks) {
-                    amountMultiplier = localOrderers?.filter(orderer => orderer?.completed).length;
-                    amountMultiplier = amountMultiplier > 0 ? amountMultiplier : 1;
-                }
-                if(item.unitOfMeasure === "fl oz") {
-                    flOzTotal += item.ingredientAmount * amountMultiplier;
-                }
-                drinkTemp = item.drinkName
-                descTemp = item.description
-                ingredTemp.push(item.ingredient)
-                amountsTemp.push((item.ingredientAmount * amountMultiplier) + " " + item.unitOfMeasure)
+
+        const drinkData = await axios.get('/api/drinks/'+drinkName+'/details');
+        let drink = drinkData.data.drink;
+
+        if(firstInit) {
+            useMultiplyDrinks = drink.group_on_orders;
+            setBatchMode(!!drink.group_on_orders);
+            setFirstInit(false);
+        }
+
+        if(bartenderMode && useMultiplyDrinks) {
+            amountMultiplier = localOrderers?.filter(orderer => orderer?.completed).length;
+            amountMultiplier = amountMultiplier > 0 ? amountMultiplier : 1;
+        }
+
+        drinkTemp = drink.name
+        descTemp = drink.description
+
+        drink.recipes?.forEach((ingredient) => {
+            if(ingredient.unit_name === "fl oz") {
+                flOzTotal += ingredient.amount * amountMultiplier;
             }
-        });
+            ingredTemp.push(ingredient.ingredient_name)
+            amountsTemp.push((ingredient.amount * amountMultiplier) + " " + (ingredient.unit_name === "Count" ? '' : ingredient.unit_name))
+        })
+
+
+        // drinkList.forEach(item => {
+        //     let curDrink = item.drinkName
+        //     curDrink = curDrink.toLowerCase().split(' ').join('-')
+        //     if(curDrink === drinkPath) {
+        //         if(bartenderMode && useMultiplyDrinks) {
+        //             amountMultiplier = localOrderers?.filter(orderer => orderer?.completed).length;
+        //             amountMultiplier = amountMultiplier > 0 ? amountMultiplier : 1;
+        //         }
+        //         if(item.unitOfMeasure === "fl oz") {
+        //             flOzTotal += item.ingredientAmount * amountMultiplier;
+        //         }
+        //         drinkTemp = item.drinkName
+        //         descTemp = item.description
+        //         ingredTemp.push(item.ingredient)
+        //         amountsTemp.push((item.ingredientAmount * amountMultiplier) + " " + item.unitOfMeasure)
+        //     }
+        // });
 
         if(drinkTemp === drinkName) {
             window.location.href = "/error"
@@ -126,7 +148,7 @@ export default function Drink(
             localStorage.setItem("name", customer);
         }
         axios.post('/api/orders', {
-            drink_name: drink,
+            orderable_name: drink,
             quantity: 1,
             name: customer,
         })
