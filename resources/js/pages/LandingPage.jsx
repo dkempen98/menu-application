@@ -19,9 +19,9 @@ export default function LandingPage() {
                             <div>Pumpkin Spice White Russian</div>
                         </div>
                     </Link>
-                    <Link to={"/drinks/vodka/zombie-smash"} className='zombie-smash-featured'>
+                    <Link to={"/drinks/tequila/witches-brew"} className='witches-brew-featured'>
                         <div className="category-items">
-                            <div>Zombie Smash</div>
+                            <div>Witches Brew</div>
                         </div>
                     </Link>
                 </div>
